@@ -6,7 +6,7 @@ namespace Presentation.Pages;
 public partial class Counter : ComponentBase
 {
     [Inject]
-    private ICounterService _counterService { get; set; }
+    private ICounterService? _counterService { get; set; }
 
     private int counter;
 
