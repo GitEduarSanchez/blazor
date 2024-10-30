@@ -1,0 +1,86 @@
+{
+    "categorias": [
+        {
+            "aplicaciones": [
+                {
+                    "descripcion": "GestorProcesosSURAWeb",
+                    "icono": "GestorProcesosLocal",
+                    "nombre": "Gestor de procesos",
+                    "url": "https://appsseglab.suranet.com/GestorProcesosSURAWeb/"
+                },
+                {
+                    "descripcion": "Administrador de parámetros",
+                    "icono": "parametrosapp",
+                    "nombre": "Administrador de parametros",
+                    "subcategoria": "Módulos",
+                    "url": "https://parametrosapp.labsura.com/parametros"
+                },
+                {
+                    "descripcion": "Aplicativo de aprovisionamiento de usuarios y aplicaciones",
+                    "icono": "APUS",
+                    "nombre": "Aprovisionamiento",
+                    "url": "https://appsseglab.suranet.com/aprovisionamiento/InicioServlet"
+                }
+            ],
+            "nombre": "Herramientas de Trabajo"
+        },
+        {
+            "aplicaciones": [
+                {
+                    "descripcion": "Aplicación para gestión de claves y usuarios de Seguros Voluntarios y Obligatorios",
+                    "icono": "AdministradorPortales",
+                    "nombre": "Administrador Portales",
+                    "url": "https://adminportaleslabo.suramericana.com"
+                }
+            ],
+            "nombre": "Servicios para Empleados"
+        },
+        {
+            "aplicaciones": [
+                {
+                    "descripcion": "Service provider de la aplicacion de administracionsss",
+                    "icono": "seus-consola",
+                    "nombre": "SEUS 4",
+                    "url": "https://seusconsola.labsura.com"
+                },
+                {
+                    "descripcion": "Aplicacion Asegura tu app",
+                    "icono": "Aseguratuapp",
+                    "nombre": "AseguraTuAPP",
+                    "url": "https://aseguratuapplab.suranet.com"
+                },
+                {
+                    "descripcion": "STOnline OCI LAB",
+                    "icono": "SrvStonlineOCI",
+                    "nombre": "STOnline",
+                    "url": "https://stonline.labsura.com/stonline/"
+                },
+                {
+                    "descripcion": "Listas maestras",
+                    "icono": "adminlistasmaestras",
+                    "nombre": "Listas Maestras",
+                    "url": "https://listasmaestrasapp.labsura.com/"
+                }
+            ],
+            "nombre": "Tecnológicos"
+        },
+        {
+            "aplicaciones": [
+                {
+                    "descripcion": "Sistema para la atención de reclamaciones de Suramericana.",
+                    "icono": "ATRSura",
+                    "nombre": "ATR Sura",
+                    "url": "https://appsseglab.suranet.com/ATRSura"
+                },
+                {
+                    "descripcion": "Certificación de Usuarios",
+                    "icono": "adminbots",
+                    "nombre": "Certificación de Usuarios",
+                    "subcategoria": "Módulos",
+                    "url": "https://adminbots.labsura.com"
+                }
+            ],
+            "nombre": "Información para la Gestión"
+        }
+    ]
+}

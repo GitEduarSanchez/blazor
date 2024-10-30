@@ -1,0 +1,33 @@
+﻿@page "/aplications"
+
+<h3>Applications</h3>
+
+@if (Application != null && Application.Categories != null)
+{
+    @foreach (var category in Application.Categories)
+    {
+        <h2>@category.Name</h2>
+        <ul>
+            @foreach (var app in category.Applications)
+            {
+                <li>
+                    <strong>@app.Name</strong> - <a href="@app.Url">@app.Url</a>
+                    <p>@app.Description</p>
+                </li>
+            }
+        </ul>
+    }
+}
+else
+{
+    <p>Cargando aplicaciones...</p>
+}
+
+@code {
+   
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetApplicationsAsync();
+    }
+}
