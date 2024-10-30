@@ -1,4 +1,5 @@
 ﻿using Domain.Ports;
+using Infraestructure.Adapter.Counter;
 using Infraestructure.Adapter.WeatherForecast;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,7 +11,7 @@ public static class DependencyInjectionService
     {
        
         services.AddTransient<IWeatherForecastService, WeatherForecastService>();
-
+        services.AddScoped<ICounterService, CounterService>();
         return services;
     }
 }
