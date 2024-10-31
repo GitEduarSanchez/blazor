@@ -1,14 +1,32 @@
 ﻿
-<MudPaper Width="250px" Class="d-inline-flex py-3" Elevation="0">
+<MudPaper Width="300px" Class="d-inline-flex py-3" Elevation="0">
     <MudNavMenu Class="mud-width-full">
-        <MudText Typo="Typo.h6" Class="px-4">Material</MudText>
-        <MudText Typo="Typo.body2" Class="px-4 mud-text-secondary">Icons</MudText>
+        <MudText Typo="Typo.h6" Class="px-4">Aplicaciones</MudText>
         <MudDivider Class="my-2" />
-        <MudNavLink Href="/" Icon="@Icons.Material.Filled.Dashboard">Dashboard</MudNavLink>
-        <MudNavLink Href="/aplications" Icon="@Icons.Material.Filled.Receipt" Disabled="false">Applications</MudNavLink>
-        @* <MudNavGroup Title="Settings" Icon="@Icons.Material.Filled.Settings" Expanded="true">
-            <MudNavLink Href="/users" Icon="@Icons.Material.Filled.People" IconColor="Color.Success">Users</MudNavLink>
-            <MudNavLink Href="/security" Icon="@Icons.Material.Filled.Security" IconColor="Color.Info">Security</MudNavLink>
-        </MudNavGroup> *@
+        <MudNavLink Href="/" Icon="@Icons.Material.Filled.Dashboard">Home</MudNavLink>
+        <MudNavLink Href="/aplications" Icon="@Icons.Material.Filled.Receipt" Disabled="false">Apicaciones</MudNavLink>
+
+        @if (Application != null && Application.Categories != null && Application.Categories.Any())
+        {
+            @foreach (var category in Application.Categories)
+            {
+                <MudNavGroup Title="@category.Name" Icon="@Icons.Material.Filled.Folder" Expanded="false">
+                    @foreach (var app in category.Applications)
+                    {
+                        <MudNavLink Href="@app.Url.ToString()" Icon="@app.Icon" IconColor="Color.Primary">@app.Name</MudNavLink>
+                    }
+                </MudNavGroup>
+            }
+        }
+        else
+        {
+            <MudText Typo="Typo.body2" Class="px-4">Cargando categorías...</MudText>
+        }
     </MudNavMenu>
 </MudPaper>
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await GetApplicationsAsync();
+    }
+}

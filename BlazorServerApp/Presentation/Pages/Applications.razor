@@ -2,32 +2,75 @@
 
 <h3>Applications</h3>
 
-@if (Application != null && Application.Categories != null)
+@if (IsDataLoaded)
 {
-    @foreach (var category in Application.Categories)
+    @if (Application != null && Application.Categories != null && Application.Categories.Any())
     {
-        <h2>@category.Name</h2>
-        <ul>
-            @foreach (var app in category.Applications)
+        <MudTabs Elevation="2" Rounded="true" ApplyEffectsToContainer="true" AlwaysShowScrollButtons="true" PanelClass="pa-6" Color="Color.Transparent">
+            @foreach (var category in Application.Categories)
             {
-                <li>
-                    <strong>@app.Name</strong> - <a href="@app.Url">@app.Url</a>
-                    <p>@app.Description</p>
-                </li>
+                <MudTabPanel Text="@category.Name" Icon="@Icons.Material.Filled.Api" BadgeData="@category.Applications.Count()" BadgeColor="Color.Success" Style="padding-right: 50px;">
+                    <MudGrid Spacing="3" Justify="Justify.FlexStart">
+                        @foreach (var app in category.Applications)
+                        {
+                            <MudItem>
+                                <MudLink Href="@app.Url.ToString()" Target="_blank">
+                                    <MudCard Height="130px" Width="320px" Elevation="3">
+                                        <MudCardHeader>
+                                            <CardHeaderAvatar>
+                                                <MudIconButton Icon="@app.Icon" Color="Color.Inherit" Size="Size.Large" />
+                                            </CardHeaderAvatar>
+                                            <CardHeaderContent>
+                                                <MudText Style="font-size: 15px; font-weight:bold">@app.Name</MudText>
+                                                <MudText Style="font-size: 12px">@app.Description</MudText>
+                                            </CardHeaderContent>
+                                        </MudCardHeader>
+                                    </MudCard>
+                                </MudLink>
+                            </MudItem>
+                        }
+                    </MudGrid>
+                </MudTabPanel>
+               
             }
-        </ul>
+        </MudTabs>
+    }
+    else
+    {
+        <MudAlert Severity="Severity.Normal" Elevation="3">No se encontró información.</MudAlert>
     }
 }
 else
 {
-    <p>Cargando aplicaciones...</p>
+    <MudGrid Spacing="3" Justify="Justify.FlexStart">
+        @for (int item = 0; item <= 5; item++)
+        {
+            <MudItem>
+                <MudCard Height="130px" Width="320px" Elevation="3">
+                    <MudCardHeader>
+                        <CardHeaderAvatar>
+                            <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Height="60px" Width="60px" />
+                        </CardHeaderAvatar>
+                        <CardHeaderContent>
+                            <MudSkeleton Width="50%" Height="42px;" />
+                            <MudSkeleton Width="100%" />
+                            <MudSkeleton Width="70%" />
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                </MudCard>
+            </MudItem>
+        }
+    </MudGrid>
 }
 
 @code {
-   
+    
+    public bool IsDataLoaded { get; set; } = false;
 
     protected override async Task OnInitializedAsync()
     {
+        await Task.Delay(1000);
         await GetApplicationsAsync();
+        IsDataLoaded = true;
     }
 }
