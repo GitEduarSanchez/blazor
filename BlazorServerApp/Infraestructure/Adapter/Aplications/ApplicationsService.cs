@@ -7,7 +7,7 @@ public class ApplicationsService(HttpClient _httpClient) : IApplicationService
 {
     async Task<ApplicationsEntity> IApplicationService.GetAplicacionesAsync()
     {
-        var response = await _httpClient.GetAsync("https://seuslab.sura.com/auth/applications");
+        //var response = await _httpClient.GetAsync("https://seuslab.sura.com/auth/applications");
 
         var aplicaciones = new ApplicationsEntity
         {
