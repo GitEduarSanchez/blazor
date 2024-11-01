@@ -3,9 +3,9 @@ using Domain.Ports;
 
 namespace Infraestructure.Adapter.Aplications;
 
-public class ApplicationsService(HttpClient _httpClient) : IApplicationService
+public class ApplicationsService(HttpClient _httpClient) : IApplicationRepository
 {
-    async Task<ApplicationsEntity> IApplicationService.GetAplicacionesAsync()
+    public async Task<ApplicationsEntity> GetAplicacionesRepositoryAsync()
     {
         //var response = await _httpClient.GetAsync("https://seuslab.sura.com/auth/applications");
 
@@ -114,7 +114,7 @@ public class ApplicationsService(HttpClient _httpClient) : IApplicationService
                         ]
                     }
                 ]
-         };
+        };
         return await Task.FromResult(aplicaciones);
     }
 }

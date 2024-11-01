@@ -1,4 +1,4 @@
-﻿using Domain.Entity;
+﻿using Domain.Dto;
 using Domain.Ports;
 using Microsoft.AspNetCore.Components;
 
@@ -6,7 +6,7 @@ namespace Presentation.Pages;
 
 public partial class Applications : ComponentBase
 {
-    public ApplicationsEntity Application { get; set; }
+    public ApplicationsDto Application { get; set; }
 
     [Inject]
     public IApplicationService ApplicationService { get; set; }

@@ -1,4 +1,4 @@
-using Infraestructure.Adapter.WeatherForecast;
+using Application.DependencyInjectionService;
 using Infraestructure.DependencyInjectionService;
 using MudBlazor.Services;
 
@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddApplication();
 builder.Services.AddInfraestruture();
 builder.Services.AddMudServices();
 builder.Services.AddHttpClient();

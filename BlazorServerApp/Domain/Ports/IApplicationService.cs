@@ -1,8 +1,8 @@
-﻿using Domain.Entity;
+﻿using Domain.Dto;
 
 namespace Domain.Ports;
 
 public interface IApplicationService
 {
-    Task<ApplicationsEntity> GetAplicacionesAsync();
+    Task<ApplicationsDto> GetAplicacionesAsync();
 }
