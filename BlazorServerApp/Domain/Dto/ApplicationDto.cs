@@ -5,4 +5,4 @@ public record ApplicationDto(
     string Icon,
     string Name,
     string Url,
-    string SubCategori);
+    string SubCategory);

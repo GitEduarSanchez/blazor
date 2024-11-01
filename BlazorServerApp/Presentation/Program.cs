@@ -1,6 +1,8 @@
 using Application.DependencyInjectionService;
+using Application.Mapper;
 using Infraestructure.DependencyInjectionService;
 using MudBlazor.Services;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,7 @@ builder.Services.AddApplication();
 builder.Services.AddInfraestruture();
 builder.Services.AddMudServices();
 builder.Services.AddHttpClient();
+builder.Services.AddAutoMapper(Assembly.Load("Application"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
