@@ -1,2372 +1,1971 @@
 {
-
-    "categorias": [
-
+  "categorias": [
+    {
+      "aplicaciones": [
         {
+          "descripcion": "Servicios Sarlaft",
 
-            "aplicaciones": [
+          "icono": "Sarlaft",
 
-                {
+          "nombre": "Sarlaft",
 
-                    "descripcion": "Servicios Sarlaft",
-
-                    "icono": "Sarlaft",
-
-                    "nombre": "Sarlaft",
-
-                    "url": "https://appssegdllo02.suranet.com/Sarlaft/com.sura.sarlaft.pubs.SerSarlaft"
-
-                },
-
-                {
-
-                    "descripcion": "autogestion-clientes",
-
-                    "icono": "autogestion-clientes",
-
-                    "nombre": "autogestion-clientes",
-
-                    "url": "http://srdkrd01.suramericana.com.co:9980/autogestionclientes/"
-
-                },
-
-                {
-
-                    "descripcion": "autogestionclientes",
-
-                    "icono": "autogestionclientes",
-
-                    "nombre": "autogestionclientes",
-
-                    "url": "http://localhost.suramericana.com.co:4200"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación Gestión de Relación con Cliente - Para consulta y actualización de clientes",
-
-                    "icono": "Sic",
-
-                    "nombre": "Gestión de Relación con el Cliente",
-
-                    "url": "http://localhost.suranet.com:7001/sic"
-
-                },
-
-                {
-
-                    "descripcion": "Fatca",
-
-                    "icono": "Fatca",
-
-                    "nombre": "Fatca",
-
-                    "url": "https://appssegdllo02.suranet.com/Sarlaft/com.sura.sarlaft.pubs.SerFatca"
-
-                },
-
-                {
-
-                    "descripcion": "SicSalud",
-
-                    "icono": "SicSalud",
-
-                    "nombre": "SicSalud",
-
-                    "url": "http://segdllo02.suranet.com/sic/servlet/suramericana.sic.generico.LogonXML?servicio=Sic"
-
-                },
-
-                {
-
-                    "descripcion": "Servicio PUBS para consultar plantillas.",
-
-                    "icono": "serSicCombinadorPlantillas",
-
-                    "nombre": "Gestión de Relación con el Cliente Combinador Plantillas",
-
-                    "url": "https://segdllo02.suranet.com/sic/servlet/suramericana.sic.pubs.CtrlCombinadorPlantillas"
-
-                },
-
-                {
-
-                    "descripcion": "Servicio PUBS serSicCausasInvdez expuesto por Sic (Suracliente,Gestión Causas Invalidez ).",
-
-                    "icono": "serSicCausasInvdez",
-
-                    "nombre": "Gestión Causas Invalidez",
-
-                    "url": "https://segdllo02.suranet.com/sic/servlet/suramericana.sic.pubs.CtrlCausasInvdez"
-
-                },
-
-                {
-
-                    "descripcion": "Servicio PUBS para consultar datos de sura cliente.",
-
-                    "icono": "serTodoSuracliente1",
-
-                    "nombre": "Todo Sura Cliente",
-
-                    "url": "https://segdllo02.suranet.com/sic/servlet/suramericana.sic.pubs.CtrlSuracliente"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación Sarlaft 4.0 Admin",
-
-                    "icono": "Sarlaft4Admin",
-
-                    "nombre": "SARLAFT 4.0",
-
-                    "url": "https://sarlaft.dllosura.com/"
-
-                },
-
-                {
-
-                    "descripcion": "Consultas y Reportes ARL",
-
-                    "icono": "consultasreportesarlgeneral-local",
-
-                    "nombre": "MIRA",
-
-                    "url": "http://local.arlsura.com:3000/consultasreportesarlgeneral/index.html"
-
-                },
-
-                {
-
-                    "descripcion": "Consultas y Reportes ARL",
-
-                    "icono": "consultasreportesarlgeneral",
-
-                    "nombre": "MIRA",
-
-                    "url": "https://afiliacionesdllo.arlsura.com/consultasreportesarlgeneral/index.html"
-
-                }
-
-            ],
-
-            "nombre": "Gestión de Clientes"
-
+          "url": "https://appssegdllo02.suranet.com/Sarlaft/com.sura.sarlaft.pubs.SerSarlaft"
         },
 
         {
+          "descripcion": "autogestion-clientes",
 
-            "aplicaciones": [
+          "icono": "autogestion-clientes",
 
-                {
+          "nombre": "autogestion-clientes",
 
-                    "descripcion": "Ingreso a aplicativo de la biblioteca como administrador",
-
-                    "icono": "bibliotecaAdm",
-
-                    "nombre": "bibliotecaAdm",
-
-                    "url": "http://segdllo01.suranet.com/bibliotecaAdmin/"
-
-                },
-
-                {
-
-                    "descripcion": "CarterasColectivas_FondoAhorro",
-
-                    "icono": "CarterasColectivas_FondoAhorro",
-
-                    "nombre": "CarterasColectivas_FondoAhorro",
-
-                    "url": "http://mdeapsfrlx01.suranet.com/forms/frmservlet?config=FI"
-
-                },
-
-                {
-
-                    "descripcion": "serSiaServProveedores",
-
-                    "icono": "serSiaServProveedores",
-
-                    "nombre": "serSiaServProveedores",
-
-                    "url": "http://segdllo02.suranet.com/ServiciosAutosura/LogonSIAServlet?servicio=serSiaServProveedores"
-
-                },
-
-                {
-
-                    "descripcion": "serSiaServRegistrado",
-
-                    "icono": "serSiaServRegistrado",
-
-                    "nombre": "serSiaServRegistrado",
-
-                    "url": "http://segdllo02.suranet.com/ServiciosAutosura/LogonSIAServlet?servicio=serSiaServRegistrado"
-
-                }
-
-            ],
-
-            "nombre": "Generación del Conocimiento"
-
+          "url": "http://srdkrd01.suramericana.com.co:9980/autogestionclientes/"
         },
 
         {
+          "descripcion": "autogestionclientes",
 
-            "aplicaciones": [
+          "icono": "autogestionclientes",
 
-                {
+          "nombre": "autogestionclientes",
 
-                    "descripcion": "Guidewire Policy Center",
-
-                    "icono": "PolicyCenter",
-
-                    "nombre": "Policy Center",
-
-                    "url": "http://dllocoreseguros.suramericana.com.co/pc"
-
-                },
-
-                {
-
-                    "descripcion": "Nuevo Core Seguros BillingCenter - Dllo WLS",
-
-                    "icono": "BillingCenter",
-
-                    "nombre": "Billing Center",
-
-                    "url": "http://dllocoreseguros.suramericana.com:7004/bc"
-
-                },
-
-                {
-
-                    "descripcion": "Holmes, aplicación de configuración de LOGs de aplicaciones",
-
-                    "icono": "Holmes",
-
-                    "nombre": "Holmes",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://lnfdllod01.suranet.com/holmes"
-
-                },
-
-                {
-
-                    "descripcion": "Ingreso Aplicación Navigator",
-
-                    "icono": "SrvIngresoP8",
-
-                    "nombre": "SrvIngresoP8",
-
-                    "subcategoria": "Archivo Digital",
-
-                    "url": "http://p8appdll.suranet.com/P8LoginWeb/"
-
-                },
-
-                {
-
-                    "descripcion": "administrador de afiliación en linea y gestión comercial",
-
-                    "icono": "afilinea-admin",
-
-                    "nombre": "Afiliación en Linea - Administrador",
-
-                    "url": "http://localhost.suranet.com:9000/index.html#"
-
-                },
-
-                {
-
-                    "descripcion": "Gestión ingresos interno",
-
-                    "icono": "pruebaconcepto-gestioningresosarl",
-
-                    "nombre": "Afiliación en Linea - Administrador",
-
-                    "url": "http://localhost.suranet.com:7210"
-
-                },
-
-                {
-
-                    "descripcion": "Gestión ingresos interno",
-
-                    "icono": "gestioningresosarl",
-
-                    "nombre": "Gestión Ingresos ARL",
-
-                    "url": "http://segobl.dllosura.com/gestioningresos"
-
-                },
-
-                {
-
-                    "descripcion": "borrar sp",
-
-                    "icono": "DiagnosicoBackEndBorrar",
-
-                    "nombre": "borrar sp",
-
-                    "url": "http://modulodiagnosticosdllo.suramericana.com/modulodiagnosticos/"
-
-                },
-
-                {
-
-                    "descripcion": "Gestión Ingresos ARL Local",
-
-                    "icono": "gestioningresosarl-local",
-
-                    "nombre": "Gestión Ingresos ARL Local",
-
-                    "url": "http://localhost.suranet.com:9490/gestioningresos"
-
-                },
-
-                {
-
-                    "descripcion": "Administracion Notificaciones",
-
-                    "icono": "Notific",
-
-                    "nombre": "Notificaciones",
-
-                    "url": "https://appssegdllo01.suranet.com/Notificaciones/default.jsp?servicio=Notific/inicio.jsp"
-
-                },
-
-                {
-
-                    "descripcion": "Modelo de controles técnicos",
-
-                    "icono": "mct",
-
-                    "nombre": "Modelo de controles técnicos",
-
-                    "url": "http://local.suranet.com:7001/mct"
-
-                },
-
-                {
-
-                    "descripcion": "SimonWeb",
-
-                    "icono": "AdmSimonWeb",
-
-                    "nombre": "SimonWeb",
-
-                    "url": "https://appssegdllo02.suranet.com/simonweb"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación SOAT",
-
-                    "icono": "Soat",
-
-                    "nombre": "SOAT",
-
-                    "url": "http://segdllo02.suranet.com/soat"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema de apoyo de la solución seguro agrícula",
-
-                    "icono": "SuraAgro",
-
-                    "nombre": "SISTEMA INTEGRADO DE INFORMACIÓN Y GENERACIÓN DE AGRO",
-
-                    "url": "http://segdllo01.suranet.com/AplicacionWebSuragro"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema para la generación de documentos que permite la impresión por impresora, email y otras.",
-
-                    "icono": "ImpresionDocumentos",
-
-                    "nombre": "Generación e impresión de documentos",
-
-                    "url": "http://segdllo01.suranet.com/impresion"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema para gestionar el pago de Comisiones a los agentes de Eps Sura",
-
-                    "icono": "Comisiones",
-
-                    "nombre": "Liquidador de Comisiones",
-
-                    "url": "http://local.suranet.com:7001/comisiones"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicacion para la gestion de pagos de ARL",
-
-                    "icono": "ArpSuraGestionPagos",
-
-                    "nombre": "Gestion Pagos ARL",
-
-                    "url": "https://arlappsdllo.suranet.com/GestionPagosWEB"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema para la traza de auditoría de documentos y control de la productividad para gestión documental",
-
-                    "icono": "AdministracionProcesos",
-
-                    "nombre": "Gestión de la Información",
-
-                    "subcategoria": "Archivo Digital",
-
-                    "url": "http://segdllo01.suranet.com/AdministracionProcesos"
-
-                },
-
-                {
-
-                    "descripcion": "Prestación de servicios CGR",
-
-                    "icono": "Girop",
-
-                    "nombre": "Girop",
-
-                    "url": "http://arlappsdllo.suranet.com/PrestacionServiciosCGR"
-
-                },
-
-                {
-
-                    "descripcion": "Gestión de las reservas técnicas de accidentes de trabajo y Enfermedad profesional de ARP|SURA.",
-
-                    "icono": "ReservasTecnicasARL",
-
-                    "nombre": "Reservas Técnicas ARL",
-
-                    "url": "http://arlappsdllo.suranet.com/Reservas"
-
-                },
-
-                {
-
-                    "descripcion": "Proyecto de financiación de pólizas.",
-
-                    "icono": "Financiaciones",
-
-                    "nombre": "Financiaciones",
-
-                    "url": "https://appssegdllo01.suranet.com/Financiaciones/"
-
-                },
-
-                {
-
-                    "descripcion": "administrador de afiliación en linea",
-
-                    "icono": "AdministracionAfilinea",
-
-                    "nombre": "Administrador Afilinea",
-
-                    "url": "http://afilinea.dllosura.com"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema para soportar la operación de los centros servicio Autosura en el tema de revisiones y servicios",
-
-                    "icono": "ServiciosAutosura",
-
-                    "nombre": "Servicios Autosura",
-
-                    "url": "http://local.suranet.com:7021/ServiciosAutosura"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema encargado de administrar las citas medicas de los pacientes de sura",
-
-                    "icono": "AgendaWeb",
-
-                    "nombre": "Agenda Web",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://localhost.suranet.com:7021/agenda"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación coexistencia",
-
-                    "icono": "Coexistencia",
-
-                    "nombre": "Coexistencia",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://local.suranet.com:7021/coeadmin/"
-
-                },
-
-                {
-
-                    "descripcion": "Automatiza el proceso de actualización y creación de listas maestras de referencia a nivel de suramericana, las cuales son usadas por las aplicaciones de los diferentes negocios, aplicando un modelo definido de gobierno sobre
-los datos.",
-
-                    "icono": "gestion-listas-rest",
-
-                    "nombre": "Listas Maestras de Referencia",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "https://appssegdllo03.suranet.com/gestion-listas-rest"
-
-                },
-
-                {
-
-                    "descripcion": "aplicación empresariales asesoría y venta",
-
-                    "icono": "Empresariales",
-
-                    "nombre": "Empresariales",
-
-                    "url": "http://dllocoreseguros.suramericana.com.co/fnt-SolucionesEmpresariales/agt-SolucionesEmpresariales/groupcenter"
-
-                },
-
-                {
-
-                    "descripcion": "gestionpagosprevencion",
-
-                    "icono": "gestionpagosprevencion",
-
-                    "nombre": "Pagos a terceros ARL",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://segobl.dllosura.com/gestionpagosprevencion"
-
-                },
-
-                {
-
-                    "descripcion": "Comisiones Ejecutivos ARL Sura",
-
-                    "icono": "CommissionsARL",
-
-                    "nombre": "Commissions ARL",
-
-                    "url": "https://gdis-dev.callidusondemand.com/SalesPortal/#!/"
-
-                },
-
-                {
-
-                    "descripcion": "Administración Canal Directo",
-
-                    "icono": "afilineaarlgestion",
-
-                    "nombre": "Gestión Afilinea ARL",
-
-                    "url": "http://local.suranet.com:3000/"
-
-                },
-
-                {
-
-                    "descripcion": "Servicios varios usados para el proceso de reclamaciones de siniestros panamá.",
-
-                    "icono": "ServiciosSiniestros",
-
-                    "nombre": "Atención de reclamaciones Web",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://segdllo02.suranet.com:7001/ServiciosSiniestrosWS"
-
-                },
-
-                {
-
-                    "descripcion": "Adulto mayor visual",
-
-                    "icono": "AdultoMayorVisual",
-
-                    "nombre": "Adulto Mayor Visual",
-
-                    "url": "http://local.suranet.com:7021/AdultoMayor"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicativo donde se gestionan las tutelas de la compañia",
-
-                    "icono": "TUTELAS",
-
-                    "nombre": "Tutelas",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "https://epsappsdllo.suranet.com/tutelas"
-
-                },
-
-                {
-
-                    "descripcion": "Matrices legales Empleados",
-
-                    "icono": "MatricesLegales",
-
-                    "nombre": "matrices",
-
-                    "url": "http://grcdllo.sura.com/matriceslegales"
-
-                },
-
-                {
-
-                    "descripcion": "Conciliación cuentas medicas con prestadores",
-
-                    "icono": "conciliacioncuentasmedicas",
-
-                    "nombre": "Conciliación cuentas medicas con prestadores",
-
-                    "url": "http://arldkrd01.suramericana.com.co:9170/conciliacioncmprestadoreseps/#"
-
-                },
-
-                {
-
-                    "descripcion": "Rescates",
-
-                    "icono": "adminFondo",
-
-                    "nombre": "Administracion Rescates Fondo",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://juantogo.suranet.com:7003/rescatesFondo/"
-
-                },
-
-                {
-
-                    "descripcion": "Estructura organizacional Empleados",
-
-                    "icono": "EstructuraOrganizacional",
-
-                    "nombre": "Estructura Organizacional",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://grcdllo.sura.com/estructuraorganizacional"
-
-                },
-
-                {
-
-                    "descripcion": "Ipevr Empleados",
-
-                    "icono": "Ipevr",
-
-                    "nombre": "Ipevr",
-
-                    "url": "http://grcdllo.sura.com/ipevr"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación para consulta y gestión de estados de cuenta de empresas y/o independientes",
-
-                    "icono": "estadocuentaarl",
-
-                    "nombre": "Estado Cuenta ARL",
-
-                    "url": "http://segobl.dllosura.com/estadocuenta"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicativo para administrar las configuración de P8",
-
-                    "icono": "AdministracionP8",
-
-                    "nombre": "Administración Configuraciones P8",
-
-                    "subcategoria": "Archivo Digital",
-
-                    "url": "http://p8appdll.suranet.com/AdministracionP8"
-
-                },
-
-                {
-
-                    "descripcion": "Contratistas Empleados",
-
-                    "icono": "Contratistas",
-
-                    "nombre": "Contratistas",
-
-                    "url": "http://grcdllo.sura.com/contratistas"
-
-                },
-
-                {
-
-                    "descripcion": "Prueba",
-
-                    "icono": "SGR",
-
-                    "nombre": "Gestión de Riesgos",
-
-                    "url": "http://localhost.suranet.com:7021/sar"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema para soportar la operación de los centros de servicio Autos Sura de revisiones y servicios.",
-
-                    "icono": "ServiciosAutosuraLocal",
-
-                    "nombre": "Servicios Autosura",
-
-                    "url": "http://local.suranet.com:7021/ServiciosAutosura"
-
-                },
-
-                {
-
-                    "descripcion": "Módulo para suscripción y expedición de la solución cumplimiento",
-
-                    "icono": "CumplimientoWls",
-
-                    "nombre": "Sistema de Cumplimiento",
-
-                    "url": "https://appssegdllo01.suranet.com/cumplimientowls"
-
-                },
-
-                {
-
-                    "descripcion": "Prestamos los servicios asistenciales y de emergencia que tangibilizan el seguro a nuestros clientes.",
-
-                    "icono": "Asistencia",
-
-                    "nombre": "Asistencia",
-
-                    "url": "http://local.suranet.com:7021/asistencia/"
-
-                },
-
-                {
-
-                    "descripcion": "gestionpagosprevencion_local",
-
-                    "icono": "gestionpagosprevencion_local",
-
-                    "nombre": "Reclamaciones",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://localhost.suranet.com:8080/gestionpagosprevencion"
-
-                },
-
-                {
-
-                    "descripcion": "Servicios para la gesrtion de plan de trabajos de arl",
-
-                    "icono": "GESPrevencion",
-
-                    "nombre": "Gestión Prevención",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "https://gestionprevenciondllo.dllosura.com"
-
-                },
-
-                {
-
-                    "descripcion": "ArlComisiones",
-
-                    "icono": "ArlComisiones",
-
-                    "nombre": "ArlComisiones",
-
-                    "url": "https://gdis-dev.callidusondemand.com/SalesPortal/#!/"
-
-                },
-
-                {
-
-                    "descripcion": "ARLSuraGestionRiesgos",
-
-                    "icono": "ARLSuraGestionRiesgos",
-
-                    "nombre": "ARLSuraGestionRiesgos",
-
-                    "url": "http://epsarpdllo01.suranet.com/GestionRiesgos/GestionRiesgos.html"
-
-                },
-
-                {
-
-                    "descripcion": "ArpSuraGestionRecaudos",
-
-                    "icono": "ArpSuraGestionRecaudos",
-
-                    "nombre": "ArpSuraGestionRecaudos",
-
-                    "url": "http://epsarpdllo01.suranet.com/GestionRecaudosWEB/GestionRecaudosWEB.html"
-
-                },
-
-                {
-
-                    "descripcion": "ArpSuraPrestadores",
-
-                    "icono": "ArpSuraPrestadores",
-
-                    "nombre": "ArpSuraPrestadores",
-
-                    "url": "https://arlappslab.suramericana.com/servicios_linea/indexSeguridad.jsp?opcion=prestadores"
-
-                },
-
-                {
-
-                    "descripcion": "coex-admin",
-
-                    "icono": "coex-admin",
-
-                    "nombre": "coex-admin",
-
-                    "url": "http://segdllo01.suranet.com/coeadmin/frames.html"
-
-                },
-
-                {
-
-                    "descripcion": "CoreCanalesMasivosServices",
-
-                    "icono": "CoreCanalesMasivosServices",
-
-                    "nombre": "CoreCanalesMasivosServices",
-
-                    "url": "http://segdllo02.suranet.com/CoreCanalesMasivosServicesWS/services"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema seguro que permite la expedición de pólizas con mayor efectividad a través de flujos de trabajo.",
-
-                    "icono": "DlloSeee",
-
-                    "nombre": "Evaluación, Emisión y Entrega",
-
-                    "url": "http://dllseee.suranet.com/workflowweb"
-
-                },
-
-                {
-
-                    "descripcion": "EsbCotizacionesServices",
-
-                    "icono": "EsbCotizacionesServices",
-
-                    "nombre": "EsbCotizacionesServices",
-
-                    "url": "http://soadllo.suramericana.com.co/ServiciosCotizadorMobileWeb/http"
-
-                },
-
-                {
-
-                    "descripcion": "EsbServiciosExpansion",
-
-                    "icono": "EsbServiciosExpansion",
-
-                    "nombre": "EsbServiciosExpansion",
-
-                    "url": "http://soadllo.suramericana.com.co/ExpansionSuraWeb"
-
-                },
-
-                {
-
-                    "descripcion": "Módulo para suscripción y expedición de la solución cumplimiento para las fianzas panamá",
-
-                    "icono": "FianzasPanamawls",
-
-                    "nombre": "Fianzas Panamá",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://local.suranet.com:7001/fianzaspanama/"
-
-                },
-
-                {
-
-                    "descripcion": "Mevi2",
-
-                    "icono": "Mevi2",
-
-                    "nombre": "Mevi2",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://segdllo01.suranet.com/mevi2"
-
-                },
-
-                {
-
-                    "descripcion": "sar",
-
-                    "icono": "sar",
-
-                    "nombre": "sar",
-
-                    "url": "http://segdllo01.suranet.com/sar"
-
-                },
-
-                {
-
-                    "descripcion": "ServicioEscritorioDeProcesos",
-
-                    "icono": "ServicioEscritorioDeProcesos",
-
-                    "nombre": "ServicioEscritorioDeProcesos",
-
-                    "url": "https://bamlab.suramericana.com.co/mum/resources/bootstrap/login.jsp"
-
-                },
-
-                {
-
-                    "descripcion": "soatpiloto",
-
-                    "icono": "soatpiloto",
-
-                    "nombre": "soatpiloto",
-
-                    "url": "http://segdllo02.suranet.com/soatpiloto/logonsoatservlet?servicio=soat"
-
-                },
-
-                {
-
-                    "descripcion": "SrvGestionAfidiIntranet",
-
-                    "icono": "SrvGestionAfidiIntranet",
-
-                    "nombre": "SrvGestionAfidiIntranet",
-
-                    "url": "http://epsarpdllo01.suranet.com/GestionAfidi"
-
-                },
-
-                {
-
-                    "descripcion": "SrvLogistica",
-
-                    "icono": "SrvLogistica",
-
-                    "nombre": "SrvLogistica",
-
-                    "url": "http://epsarpdllo01.suranet.com/PrestacionServiciosCGR/CGR.html"
-
-                },
-
-                {
-
-                    "descripcion": "SrvMedicionTiemposInicio",
-
-                    "icono": "SrvMedicionTiemposInicio",
-
-                    "nombre": "SrvMedicionTiemposInicio",
-
-                    "url": "http://epsarpdllo01.suranet.com/mediciontiempos/ServicioVisor"
-
-                },
-
-                {
-
-                    "descripcion": "SrvPlanEmergencias",
-
-                    "icono": "SrvPlanEmergencias",
-
-                    "nombre": "SrvPlanEmergencias",
-
-                    "url": "http://epsarpdllo01.suramericana.com/plemportales/administrador.jsp"
-
-                },
-
-                {
-
-                    "descripcion": "SrvReservas",
-
-                    "icono": "SrvReservas",
-
-                    "nombre": "SrvReservas",
-
-                    "url": "https://arlappsdllo.suranet.com/Reservas/servlet/CargadorRecursos"
-
-                },
-
-                {
-
-                    "descripcion": "sse",
-
-                    "icono": "sse",
-
-                    "nombre": "sse",
-
-                    "url": "http://mdedllo1.suranet.com:8002/SuscripcionEmpresarial"
-
-                },
-
-                {
-
-                    "descripcion": "stonline",
-
-                    "icono": "stonline",
-
-                    "nombre": "stonline",
-
-                    "url": "http://segdllo01.suranet.com/stonline/servlet/suramericana.stonline.acciones.ControllerSTOnline"
-
-                },
-
-                {
-
-                    "descripcion": "SuramericanaSegurosServiciosAutos",
-
-                    "icono": "SuramericanaSegurosServiciosAutos",
-
-                    "nombre": "SuramericanaSegurosServiciosAutos",
-
-                    "url": "http://segdllo01.suranet.com/SuramericanaSegurosServiciosAutosWS/services"
-
-                },
-
-                {
-
-                    "descripcion": "SuramericanaSegurosServiciosResarcimiento",
-
-                    "icono": "SuramericanaSegurosServiciosResarcimiento",
-
-                    "nombre": "SuramericanaSegurosServiciosResarcimiento",
-
-                    "url": "http://segdllo01.suranet.com/SuramericanaSegurosServiciosAutosWS/services"
-
-                },
-
-                {
-
-                    "descripcion": "formulario para posibles covid",
-
-                    "icono": "FormularioCOVID",
-
-                    "nombre": "FormularioCovid",
-
-                    "subcategoria": "Archivo Digital",
-
-                    "url": "https://comunicaciones.segurossura.com.co/CCM/Covid/Index.html"
-
-                },
-
-                {
-
-                    "descripcion": "Servicio ADR seus4",
-
-                    "icono": "ADR",
-
-                    "nombre": "ADR",
-
-                    "url": "http://localhost.suranet.com:7021/ADR"
-
-                },
-
-                {
-
-                    "descripcion": "Modulo Mobile de Clicksoftware desde la WEB",
-
-                    "icono": "ClickMobileWEB",
-
-                    "nombre": "Click Mobile WEB",
-
-                    "url": "https://fse-na-sb-login.cloud.clicksoftware.com/tmindex.html?return_path=https://fse-na-sb.cloud.clicksoftware.com/mobile"
-
-                },
-
-                {
-
-                    "descripcion": "Modulo WEB Aplicación Fuerzas campo CGR Clicksoftware",
-
-                    "icono": "Clicksoftware ARL",
-
-                    "nombre": "Clicksoftware ARL",
-
-                    "url": "https://fse-na-sb-login.cloud.clicksoftware.com/tmindex.html?return_path=https://fse-na-sb.cloud.clicksoftware.com/studio"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación que presta la función para agendar citas para Movilidad",
-
-                    "icono": "AgendaWebMovilidad",
-
-                    "nombre": "AgendaWebMovilidad",
-
-                    "url": "http://appssegdllo01.suranet.com/Agenda"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema para la gestión del score financiero de las empresas clientes de  Sura Empresas",
-
-                    "icono": "ScoreFinancieroLocal",
-
-                    "nombre": "ScoreFinanciero",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://local.suranet.com"
-
-                },
-
-                {
-
-                    "descripcion": "Cargas y descargas de documentos",
-
-                    "icono": "cargasMasivasP8",
-
-                    "nombre": "Carga y Descargas P8",
-
-                    "subcategoria": "Archivo Digital",
-
-                    "url": "http://p8appdll.suranet.com/AdministracionP8/homeMonitores/ingreso.jsp"
-
-                },
-
-                {
-
-                    "descripcion": "SuraIntegracionFasecolda: Aplicación para la consulta del código fasecolda",
-
-                    "icono": "integraFasecolda",
-
-                    "nombre": "SuraIntegracionFasecolda",
-
-                    "url": "http://localhost.sura.com:7021/IntegracionFasecolda/"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación star panama",
-
-                    "icono": "starLocal",
-
-                    "nombre": "Star panamá local",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "https://appssegdllo01.suranet.com/star/"
-
-                },
-
-                {
-
-                    "descripcion": "Módulo Administración Asesor Empresario",
-
-                    "icono": "pase",
-
-                    "nombre": "Administración Asesor Empresario",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://segdllo01.suranet.com/pase"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación salvamentos Panamá",
-
-                    "icono": "salvamentosPanama",
-
-                    "nombre": "Salvamentos Panamá local",
-
-                    "url": "http://local.suranet.com:7001/salvamentos"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicativo Memorias SUra",
-
-                    "icono": "MemoriasSura",
-
-                    "nombre": "MemoriasSura",
-
-                    "subcategoria": "Archivo Digital",
-
-                    "url": "http://p8appdll.suranet.com/MemoriasSura"
-
-                },
-
-                {
-
-                    "descripcion": "Stonline migración",
-
-                    "icono": "SrvStonlineVisual",
-
-                    "nombre": "ST ONLINE SEUS4",
-
-                    "url": "https://stonline.dllosura.com/stonline/"
-
-                },
-
-                {
-
-                    "descripcion": "Evaluacion-medica-plataforma",
-
-                    "icono": "evaluacion-medica-plataforma",
-
-                    "nombre": "Evaluacion Medica Nueva Plataforma",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://segdllo01.suranet.com/evaluacionMedica/app/index.html#!"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicativo para administración de las configuraciones",
-
-                    "icono": "AdministracionDocumental",
-
-                    "nombre": "Administración Documental",
-
-                    "subcategoria": "Archivo Digital",
-
-                    "url": "http://juantogo.suranet.com:7001/WebMapaSeries/"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicativo para ArquitecturaDocumental",
-
-                    "icono": "arq_dctal_sura",
-
-                    "nombre": "Arquitectura Documental",
-
-                    "subcategoria": "Archivo Digital",
-
-                    "url": "https://appssegdllo02.suranet.com/WebMapaSeries"
-
-                },
-
-                {
-
-                    "descripcion": "Automatiza el proceso de actualización y creación de listas maestras de referencia a nivel de suramericana, las cuales son usadas por las aplicaciones de los diferentes negocios, aplicando un modelo definido de gobierno sobre
-los datos.",
-
-                    "icono": "gestion-listas-rest-migracion",
-
-                    "nombre": "Listas Maestras de Referencia",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://localhost.suramericana.com.co:7021/gestion-listas-rest"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación para evaluación médica",
-
-                    "icono": "Mevi",
-
-                    "nombre": "Evaluación Médica",
-
-                    "url": "http://segdllo01.suranet.com/mevi2/"
-
-                },
-
-                {
-
-                    "descripcion": "Configuracion de suragro",
-
-                    "icono": "Suragro",
-
-                    "nombre": "SISTEMA INTEGRADO DE INFORMACIÓN Y GENERACIÓN DE AGRO",
-
-                    "url": "http://local.suranet.com:7001/AplicacionWebSuragro"
-
-                },
-
-                {
-
-                    "descripcion": "Configuracion de suragro",
-
-                    "icono": "Suragro_Local",
-
-                    "nombre": "SISTEMA INTEGRADO DE INFORMACIÓN Y GENERACIÓN DE AGRO",
-
-                    "url": "http://local.suranet.com:7001/AplicacionWebSuragro"
-
-                },
-
-                {
-
-                    "descripcion": "StOnline Local",
-
-                    "icono": "SrvStonlineVisualTest",
-
-                    "nombre": "STOnline Migracion SEUS4",
-
-                    "url": "http://local.suranet.com:7021/stonline/"
-
-                },
-
-                {
-
-                    "descripcion": "Solicitudes Prestación: Aplicación para el manejo y la gestión de las solicitudes de servicios para los 3 frentes de prestación de movilidad (Asistencia-Reclamaciones-Gestion De Riesgos de Movilidad)",
-
-                    "icono": "apiprestacion",
-
-                    "nombre": "Solicitudes Prestacion",
-
-                    "url": "https://solicitudesfrontdllo.suramericana.com"
-
-                },
-
-                {
-
-                    "descripcion": "Gestión Documentos de Afiliación ARL",
-
-                    "icono": "gestionafiliacionesarl-local",
-
-                    "nombre": "Gestión Documentos de Afiliación ARL",
-
-                    "url": "http://local.arlsura.com:3000/gestionafiliaciones"
-
-                },
-
-                {
-
-                    "descripcion": "Gestión Documentos de Afiliación ARL",
-
-                    "icono": "gestionafiliacionesarl-dllo",
-
-                    "nombre": "Gestión Documentos de Afiliación ARL",
-
-                    "url": "https://afiliacionesdllo.arlsura.com/gestionafiliaciones"
-
-                },
-
-                {
-
-                    "descripcion": "aplicativo hogar del core de seguros",
-
-                    "icono": "Hogar_core",
-
-                    "nombre": "Hogar_core",
-
-                    "url": "http://dllocoreseguros.suramericana.com.co/agt-SolucionesEmpresariales/hogar"
-
-                },
-
-                {
-
-                    "descripcion": "Administrador de parametros",
-
-                    "icono": "parametrosapp",
-
-                    "nombre": "Administrador de parametros",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "https://parametrosapp.dllosura.com"
-
-                },
-
-                {
-
-                    "descripcion": "Service Provider Asesores EPS dllo1",
-
-                    "icono": "asesoresEPS",
-
-                    "nombre": "Gestion Comercial 1234",
-
-                    "url": "http://localhost.suranet.com:7021/Asesores/"
-
-                },
-
-                {
-
-                    "descripcion": "Aprovisionamiento",
-
-                    "icono": "APUS",
-
-                    "nombre": "Aprovisionamiento",
-
-                    "url": "https://appssegdllo01.suranet.com/aprovisionamiento/InicioServlet"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación que permite generar documentos de los diferentes procesos de negocios, utilizando CCM",
-
-                    "icono": "ImpresionDocumentosCCM",
-
-                    "nombre": "Impresión de Documentos CCM",
-
-                    "url": "http://local.suranet.com:4200/"
-
-                },
-
-                {
-
-                    "descripcion": "Servicios para gestion de terceros",
-
-                    "icono": "GestionTerceros",
-
-                    "nombre": "Gestion Terceros",
-
-                    "url": "https://gestionterceros.dllosura.com/"
-
-                },
-
-                {
-
-                    "descripcion": "Service provider de Ausentismo DLLO",
-
-                    "icono": "Ausentismos",
-
-                    "nombre": "Ausentismos",
-
-                    "url": "https://gestionnomina.dllosura.com/ausentismos"
-
-                },
-
-                {
-
-                    "descripcion": "Administrador de afiliaciones a la ARL",
-
-                    "icono": "gestorafiliaciones",
-
-                    "nombre": "Gestor de Afiliaciones ARL",
-
-                    "url": "https://gestorafiliacionesarldllo.dllosura.com/"
-
-                },
-
-                {
-
-                    "descripcion": "aplicación que permite la gestión de solicitudes de vida y salud, que no se expiden automáticamente ",
-
-                    "icono": "GestorTareas",
-
-                    "nombre": "Gestor de Tareas",
-
-                    "url": "https://gestortareas.dllosura.com/"
-
-                },
-
-                {
-
-                    "descripcion": "Gestión y entrega del servicios. Cadena de Abastecimiento.",
-
-                    "icono": "SalesforceFSM_ARL",
-
-                    "nombre": "Field Services",
-
-                    "url": "https://computing-page-3924--desarrollo.sandbox.my.salesforce.com"
-
-                },
-
-                {
-
-                    "descripcion": "Pruebas FSM ARL",
-
-                    "icono": "TestSalesforceFSM",
-
-                    "nombre": "Pruebas FSM ARL",
-
-                    "url": "https://resilient-badger-ocbk8l-dev-ed.trailblaze.my.salesforce.com"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación de lego seus local",
-
-                    "icono": "LegoSeusLocal",
-
-                    "nombre": "Lego Seus Local",
-
-                    "url": "http://local.dllosura.com:4200"
-
-                }
-
-            ],
-
-            "nombre": "Herramientas de Trabajo"
-
+          "url": "http://localhost.suramericana.com.co:4200"
         },
 
         {
+          "descripcion": "Aplicación Gestión de Relación con Cliente - Para consulta y actualización de clientes",
 
-            "aplicaciones": [
+          "icono": "Sic",
 
-                {
+          "nombre": "Gestión de Relación con el Cliente",
 
-                    "descripcion": "Aplicación que permite la visualización de los certificado de los usuarios",
-
-                    "icono": "SrvCertificadosDober",
-
-                    "nombre": "siif",
-
-                    "url": "http://srcmd01.suramericana.com.co/SrvCertificadosDober"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación que permite la gestión de la facturación de los asesores de la compañia",
-
-                    "icono": "FacturacionAsesores",
-
-                    "nombre": "Facturación Comisiones y Honorarios",
-
-                    "url": "http://segdllo01.suranet.com/FacturacionAsesores"
-
-                },
-
-                {
-
-                    "descripcion": "Gestión Integración Success Factors",
-
-                    "icono": "gestion-integracion-sf-web",
-
-                    "nombre": "Gestión Integración Success Factors",
-
-                    "url": "http://localhost.suranet.com:7021/gestionIntegradorSF"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación para los módulos de gestión de talento humano",
-
-                    "icono": "talento-humano-app",
-
-                    "nombre": "talento humano app",
-
-                    "url": "https://appssegdllo01.suranet.com/talento-humano-app"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicativo que facilita la gestión de las operaciones de talento humano",
-
-                    "icono": "WEB_integracion_SF",
-
-                    "nombre": "Asistente Talento Humano",
-
-                    "url": "https://appssegdllo01.suranet.com/IntegracionSFGest/"
-
-                },
-
-                {
-
-                    "descripcion": "Mi cuenta sura",
-
-                    "icono": "mi-cuenta-sura",
-
-                    "nombre": "Mi Cuenta SURA",
-
-                    "url": "https://micuentadllo.suranet.com"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación para gestión de claves y usuarios de Seguros Voluntarios y Obligatorios",
-
-                    "icono": "AdministradorPortales",
-
-                    "nombre": "Administrador Portales",
-
-                    "url": "http://adminportalesdllo.suramericana.com"
-
-                },
-
-                {
-
-                    "descripcion": "CertiCREE",
-
-                    "icono": "CertiCREE",
-
-                    "nombre": "CertiCREE",
-
-                    "subcategoria": "Certificados",
-
-                    "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=2501"
-
-                },
-
-                {
-
-                    "descripcion": "CertiEduc",
-
-                    "icono": "CertiEduc",
-
-                    "nombre": "CertiEduc",
-
-                    "subcategoria": "Certificados",
-
-                    "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=2401"
-
-                },
-
-                {
-
-                    "descripcion": "CertiPenSura",
-
-                    "icono": "CertiPenSura",
-
-                    "nombre": "CertiPenSura",
-
-                    "subcategoria": "Certificados",
-
-                    "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=351"
-
-                },
-
-                {
-
-                    "descripcion": "CertiRetFte",
-
-                    "icono": "CertiRetFte",
-
-                    "nombre": "CertiRetFte",
-
-                    "subcategoria": "Certificados",
-
-                    "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=350"
-
-                },
-
-                {
-
-                    "descripcion": "CertiRetIva",
-
-                    "icono": "CertiRetIva",
-
-                    "nombre": "CertiRetIva",
-
-                    "subcategoria": "Certificados",
-
-                    "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=355"
-
-                },
-
-                {
-
-                    "descripcion": "iSinco",
-
-                    "icono": "iSinco",
-
-                    "nombre": "iSinco",
-
-                    "url": "http://mdedllo1.suranet.com:8002/isinco/default.aspx"
-
-                },
-
-                {
-
-                    "descripcion": "Kiosko",
-
-                    "icono": "Kiosko",
-
-                    "nombre": "Kiosko",
-
-                    "url": "http://segdllo01.suranet.com/kioskoj/musuar00/pagInicioSura.jsp"
-
-                },
-
-                {
-
-                    "descripcion": "srvImpuestosDian",
-
-                    "icono": "srvImpuestosDian",
-
-                    "nombre": "srvImpuestosDian",
-
-                    "url": "http://mdedllo1.suranet.com/SrvCertificadosDober/InicioSIF.aspx"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicativo que facilita la gestión de las operaciones de talento humano",
-
-                    "icono": "WEB_integracion_SF_local",
-
-                    "nombre": "Asistente Talento Humano",
-
-                    "url": "http://localhost.suranet.com:7021/IntegracionSFGest"
-
-                },
-
-                {
-
-                    "descripcion": "Correspondencia",
-
-                    "icono": "correspondencia",
-
-                    "nombre": "Correspondencia",
-
-                    "url": "http://segdllo01.suranet.com/Correspondencia"
-
-                }
-
-            ],
-
-            "nombre": "Servicios para Empleados"
-
+          "url": "http://localhost.suranet.com:7001/sic"
         },
 
         {
+          "descripcion": "Fatca",
 
-            "aplicaciones": [
+          "icono": "Fatca",
 
-                {
+          "nombre": "Fatca",
 
-                    "descripcion": "Consola Administrativa Sistema Seguridad",
-
-                    "icono": "seus-consola",
-
-                    "nombre": "Consola Seus4",
-
-                    "url": "https://seusconsola.dllosura.com"
-
-                },
-
-                {
-
-                    "descripcion": "Control de acceso a las bases de datos (http://segmdewlsd03.suramericana.com.co/AccessControlDB-war) (http://localhost.suranet.com:7003/AccessControlDB-war)",
-
-                    "icono": "ControlAccesoBd",
-
-                    "nombre": "ControlAccesoBd",
-
-                    "url": "https://appssegdllo03.suranet.com/AccessControlDB-war/"
-
-                },
-
-                {
-
-                    "descripcion": "Directorio de Servicios",
-
-                    "icono": "dise",
-
-                    "nombre": "Directorio de Servicios",
-
-                    "url": "https://lnfdllod01.suranet.com/dise"
-
-                },
-
-                {
-
-                    "descripcion": "Consola de Surabroker",
-
-                    "icono": "SurabrokerConsole",
-
-                    "nombre": "Surabroker Console",
-
-                    "url": "https://appssegdllo02.suranet.com/SuraBrokerConsole/"
-
-                },
-
-                {
-
-                    "descripcion": "Compara la línea base entregada por los proveedores contra la línea base local",
-
-                    "icono": "ControlLineaBase",
-
-                    "nombre": "Control Linea Base",
-
-                    "url": "http://dnmdewbd01.suramericana.com.co/ControlLineaBase"
-
-                },
-
-                {
-
-                    "descripcion": "Permite la gestión de drivers y su cotización en proyectos de infraestructura tecnológica (carrito de compras)",
-
-                    "icono": "GestionProyectosInfraestructuraSura",
-
-                    "nombre": "Gestion Proyectos Infraestructura Sura",
-
-                    "url": "http://dnmdewbd01.suramericana.com.co/GestionProyectosInfraSura"
-
-                },
-
-                {
-
-                    "descripcion": "Compara la línea base entregada por los proveedores contra la línea base local",
-
-                    "icono": "ControlLineaBaseDllo",
-
-                    "nombre": "Control Linea Base Dllo",
-
-                    "url": "http://local.suranet.com:50578"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicativo local para la gestión de reservas de avisados ARL",
-
-                    "icono": "ArpSuraGestionReservas_Local",
-
-                    "nombre": "Gestion Reservas",
-
-                    "url": "http://localhost.dllosura.com:7021/GestionReservasWEB"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicacion complemento BEYOND HEALTH",
-
-                    "icono": "SuraPOS",
-
-                    "nombre": "SuraPos",
-
-                    "url": "http://segobl.dllosura.com/surapos"
-
-                },
-
-                {
-
-                    "descripcion": "Permite la gestión de drivers y su cotización en proyectos de infraestructura tecnológica (carrito de compras)",
-
-                    "icono": "GestionProyectosInfraestructuraSuraDllo",
-
-                    "nombre": "Gestion Proyectos Infraestructura Sura",
-
-                    "url": "http://local.suranet.com:45455"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicacion complemento BEYOND HEALTH",
-
-                    "icono": "SuraPosLocal",
-
-                    "nombre": "SuraPosLocal",
-
-                    "url": "http://local.suranet.com:4200"
-
-                },
-
-                {
-
-                    "descripcion": "Control de acceso a las bases de datos (http://segmdewlsd03.suramericana.com.co/AccessControlDB-war) (http://localhost.suranet.com:7003/AccessControlDB-war)",
-
-                    "icono": "ControlAccesoBd_Migracion",
-
-                    "nombre": "ControlAccesoBd",
-
-                    "url": "https://appssegdllo03.suranet.com/AccessControlDB-war"
-
-                },
-
-                {
-
-                    "descripcion": "Nombre de oci que redirecciona a local",
-
-                    "icono": "SrvStonlineOCI",
-
-                    "nombre": "STOnline",
-
-                    "url": "https://stonline.dllosura.com/stonline/"
-
-                },
-
-                {
-
-                    "descripcion": "COMPROBACION DE DERECHOS PBS - SERVICIOS WEB REST",
-
-                    "icono": "SPCOMPRDERECHOS",
-
-                    "nombre": "COMPROBACION DE DERECHOS PBS",
-
-                    "url": "http://segobl.dllosura.com/servconsultas"
-
-                },
-
-                {
-
-                    "descripcion": "ACTUALIZACION AFILIADOS PBS - SERVICIOS WEB REST",
-
-                    "icono": "SPACTUALIZAAFILIADO",
-
-                    "nombre": "ACTUALIZACION AFILIADOS PBS",
-
-                    "url": "http://segobl.dllosura.com/servactualiza"
-
-                },
-
-                {
-
-                    "descripcion": "SINCRONIZACION AFILIADOS PBS - SERVICIOS WEB REST",
-
-                    "icono": "SPSINCRONIAFILIADO",
-
-                    "nombre": "SINCRONIZACION AFILIADOS PBS",
-
-                    "url": "http://segobl.dllosura.com/eventsincroni"
-
-                },
-
-                {
-
-                    "descripcion": "Motor de Jaspert Report JRIO",
-
-                    "icono": "jasperreport-io-base-arl-ms-local",
-
-                    "nombre": "JRIO",
-
-                    "url": "http://local.arlsura.com:28080/jrio"
-
-                },
-
-                {
-
-                    "descripcion": "SP PARA LA APLICACIÓN DE BANDEJAS MEDICINA LABORAL",
-
-                    "icono": "BANDEJAMEDLABORAL",
-
-                    "nombre": "Bandeja medicina laboral",
-
-                    "url": "https://bandejamedlaboral.dllosura.com/"
-
-                },
-
-                {
-
-                    "descripcion": "Gestion de Legos Web",
-
-                    "icono": "rocket",
-
-                    "nombre": "Rocket",
-
-                    "url": "https://rocket.dllosura.com"
-
-                },
-
-                {
-
-                    "descripcion": "LOCAL gestión reservas",
-
-                    "icono": "ArpSuraGestionReservas_LOCAL",
-
-                    "nombre": "LOCAL gestión reservas",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://localhost.suranet.com:7021/GestionReservasWEB"
-
-                },
-
-                {
-
-                    "descripcion": "LOCA para aplicación de BANDEJA",
-
-                    "icono": "BANDEJAMEDLABORAL_LOCAL",
-
-                    "nombre": "LOCAL BANDEJA",
-
-                    "url": "http://localhost.suramericana.com:4200"
-
-                }
-
-            ],
-
-            "nombre": "Tecnológicos"
-
+          "url": "https://appssegdllo02.suranet.com/Sarlaft/com.sura.sarlaft.pubs.SerFatca"
         },
 
         {
+          "descripcion": "SicSalud",
 
-            "aplicaciones": [
+          "icono": "SicSalud",
 
-                {
+          "nombre": "SicSalud",
 
-                    "descripcion": "ClaimCenter Dllo",
+          "url": "http://segdllo02.suranet.com/sic/servlet/suramericana.sic.generico.LogonXML?servicio=Sic"
+        },
 
-                    "icono": "ClaimCenter",
+        {
+          "descripcion": "Servicio PUBS para consultar plantillas.",
 
-                    "nombre": "Claim Center",
+          "icono": "serSicCombinadorPlantillas",
 
-                    "url": "http://dllocoreseguros.suramericana.com:7005/cc"
+          "nombre": "Gestión de Relación con el Cliente Combinador Plantillas",
 
-                },
+          "url": "https://segdllo02.suranet.com/sic/servlet/suramericana.sic.pubs.CtrlCombinadorPlantillas"
+        },
 
-                {
+        {
+          "descripcion": "Servicio PUBS serSicCausasInvdez expuesto por Sic (Suracliente,Gestión Causas Invalidez ).",
 
-                    "descripcion": "Gestión de pólizas vendidas por medio del Canal Líderes Venta Directa.",
+          "icono": "serSicCausasInvdez",
 
-                    "icono": "VentaDirectaApp",
+          "nombre": "Gestión Causas Invalidez",
 
-                    "nombre": "Venta Directa Sura App - Seus4",
+          "url": "https://segdllo02.suranet.com/sic/servlet/suramericana.sic.pubs.CtrlCausasInvdez"
+        },
 
-                    "url": "https://seusdllo.suranet.com/#/"
+        {
+          "descripcion": "Servicio PUBS para consultar datos de sura cliente.",
 
-                },
+          "icono": "serTodoSuracliente1",
 
-                {
+          "nombre": "Todo Sura Cliente",
 
-                    "descripcion": "Salvamentos Partes",
+          "url": "https://segdllo02.suranet.com/sic/servlet/suramericana.sic.pubs.CtrlSuracliente"
+        },
 
-                    "icono": "SalvamentosPartesClaims",
+        {
+          "descripcion": "Aplicación Sarlaft 4.0 Admin",
 
-                    "nombre": "Salvamentos Partes Claims",
+          "icono": "Sarlaft4Admin",
 
-                    "url": "http://local.suranet.com:7021/salvamentosPartes"
+          "nombre": "SARLAFT 4.0",
 
-                },
+          "url": "https://sarlaft.dllosura.com/"
+        },
 
-                {
+        {
+          "descripcion": "Consultas y Reportes ARL",
 
-                    "descripcion": "Watson",
+          "icono": "consultasreportesarlgeneral-local",
 
-                    "icono": "ConversationAnalytics",
+          "nombre": "MIRA",
 
-                    "nombre": "Watson Dashboard",
+          "url": "http://local.arlsura.com:3000/consultasreportesarlgeneral/index.html"
+        },
 
-                    "subcategoria": "Consultas",
+        {
+          "descripcion": "Consultas y Reportes ARL",
 
-                    "url": "http://personasdllo.arlsura.com/ConversationAnalytics"
+          "icono": "consultasreportesarlgeneral",
 
-                },
+          "nombre": "MIRA",
 
-                {
-
-                    "descripcion": "Sistemas que contiene todos los servicios web y rest del area de asuntos legales para los consumos a la aplicación casetracking",
-
-                    "icono": "AsuntosLegalesAPP",
-
-                    "nombre": "AsuntosLegales",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "http://local.suranet.com:7003/AsuntosLegalesAPPWEB"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación front y back de integracion de casetracking con aplicaciones sura",
-
-                    "icono": "AsuLegal",
-
-                    "nombre": "Integración Asuntos Legales",
-
-                    "subcategoria": "Consultas",
-
-                    "url": "http://asulegal.suranet.com:9890/asulegal"
-
-                },
-
-                {
-
-                    "descripcion": "Se utiliza para legalizar la contabilidad del reaseguro, toman la info de SAP y se la envian a los reaseguradores, tambien se definen los pagos de los reaseguradores; se paga la comision a los reaseguradores y tambien ellos
-pagan a Sura(La aplicacoón se conecta con SAP) y permite generar informes Sura y los reaseguradores del estado de la cuenta por cobrar y por pagar",
-
-                    "icono": "crw",
-
-                    "nombre": "Cuentas de Reaseguros",
-
-                    "url": "http://segdllo01.suranet.com/CuentasReaseguros"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema administrativo de Cartera",
-
-                    "icono": "ADMSAC",
-
-                    "nombre": "SAC 2",
-
-                    "subcategoria": "Consultas",
-
-                    "url": "http://localhost.suranet.com:3333/sac/"
-
-                },
-
-                {
-
-                    "descripcion": "Salvamentos Partes",
-
-                    "icono": "SalvamentosPartes",
-
-                    "nombre": "Salvamentos Partes",
-
-                    "url": "http://local.suranet.com:7021/salvamentosPartes"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema para la atención de reclamaciones de Suramericana.",
-
-                    "icono": "ATRSura",
-
-                    "nombre": "ATR Sura",
-
-                    "subcategoria": "Consultas",
-
-                    "url": "http://appssegdllo02.suranet.com/ATRSura"
-
-                },
-
-                {
-
-                    "descripcion": "Sistema para la tarifación de presupuestos en la reparación de vehículos en Colombia",
-
-                    "icono": "star2",
-
-                    "nombre": "Estandarización de Tarifas",
-
-                    "subcategoria": "HerramientasCAS",
-
-                    "url": "http://local.suranet.com:7021/star2"
-
-                },
-
-                {
-
-                    "descripcion": "ConGE",
-
-                    "icono": "ConGE",
-
-                    "nombre": "ConGE",
-
-                    "url": "http://mdedllo1.suranet.com:8002/consultaGEL/consultaGE.aspx"
-
-                },
-
-                {
-
-                    "descripcion": "consultaPROM",
-
-                    "icono": "consultaPROM",
-
-                    "nombre": "consultaPROM",
-
-                    "url": "http://mdedllo1.suranet.com:8002/ConsultaPROM/consultaPromoto.aspx"
-
-                },
-
-                {
-
-                    "descripcion": "GestionMasivosEOEAR",
-
-                    "icono": "GestionMasivosEOEAR",
-
-                    "nombre": "GestionMasivosEOEAR",
-
-                    "url": "http://segdllo01.suranet.com/GestionMasivosEOWS/services"
-
-                },
-
-                {
-
-                    "descripcion": "Osiw",
-
-                    "icono": "Osiw",
-
-                    "nombre": "Osiw",
-
-                    "url": "http://segdllo01.suranet.com/osiris/servlet/suramericana.rentasv.generico.LogonXML?servicio=Osiw"
-
-                },
-
-                {
-
-                    "descripcion": "salvamentos",
-
-                    "icono": "salvamentos",
-
-                    "nombre": "salvamentos",
-
-                    "url": "http://local.suranet.com:7021/salvamentos/servlet/com.suramericana.salvamentos.generico.Logon"
-
-                },
-
-                {
-
-                    "descripcion": "SeguroPrevisionalWS",
-
-                    "icono": "SeguroPrevisionalWS",
-
-                    "nombre": "SeguroPrevisionalWS",
-
-                    "url": "http://maquinalocal.suranet.com:7021/PlataformaRentas/services/soap"
-
-                },
-
-                {
-
-                    "descripcion": "Sinco",
-
-                    "icono": "Sinco",
-
-                    "nombre": "Sinco",
-
-                    "url": "http://sinco.suranet.com/microstrategy7/?"
-
-                },
-
-                {
-
-                    "descripcion": "SrvGestionConsignaciones",
-
-                    "icono": "SrvGestionConsignaciones",
-
-                    "nombre": "SrvGestionConsignaciones",
-
-                    "url": "http://devsapweb.suramericana.com.co/recaudosEmpresarialesWeb/Integracion?servicio=SrvGestionConsignaciones&fuente=SURANET"
-
-                },
-
-                {
-
-                    "descripcion": "star",
-
-                    "icono": "star",
-
-                    "nombre": "star",
-
-                    "url": "http://local.suranet.com:7001/star"
-
-                },
-
-                {
-
-                    "descripcion": "wsOsirisSimulMod",
-
-                    "icono": "wsOsirisSimulMod",
-
-                    "nombre": "wsOsirisSimulMod",
-
-                    "url": "http://segdllo01.suranet.com/osiris/pubs/simulador"
-
-                },
-
-                {
-
-                    "descripcion": "Aplicación para realizar traspasos de vinculaciones de los clientes.",
-
-                    "icono": "tdc",
-
-                    "nombre": "Traspasos de Clientes",
-
-                    "url": "http://localhost.suramericana.com.co:7001/tdc"
-
-                },
-
-                {
-
-                    "descripcion": "Prueba para librería reactive java",
-
-                    "icono": "PruebaJavaReactivo",
-
-                    "nombre": "PruebaJava",
-
-                    "subcategoria": "Consultas",
-
-                    "url": "http://localhost.suranet.com:8080/"
-
-                },
-
-                {
-
-                    "descripcion": "Servicio HADA seus4",
-
-                    "icono": "HADA",
-
-                    "nombre": "HADA",
-
-                    "url": "http://localhost.suranet.com:8080"
-
-                },
-
-                {
-
-                    "descripcion": "Portal CSIA",
-
-                    "icono": "adminbots",
-
-                    "nombre": "Portal CSIA",
-
-                    "subcategoria": "Módulos",
-
-                    "url": "https://adminbots.dllosura.com"
-
-                }
-
-            ],
-
-            "nombre": "Información para la Gestión"
-
+          "url": "https://afiliacionesdllo.arlsura.com/consultasreportesarlgeneral/index.html"
         }
+      ],
 
-    ]
+      "nombre": "Gestión de Clientes"
+    },
 
+    {
+      "aplicaciones": [
+        {
+          "descripcion": "Ingreso a aplicativo de la biblioteca como administrador",
+
+          "icono": "bibliotecaAdm",
+
+          "nombre": "bibliotecaAdm",
+
+          "url": "http://segdllo01.suranet.com/bibliotecaAdmin/"
+        },
+
+        {
+          "descripcion": "CarterasColectivas_FondoAhorro",
+
+          "icono": "CarterasColectivas_FondoAhorro",
+
+          "nombre": "CarterasColectivas_FondoAhorro",
+
+          "url": "http://mdeapsfrlx01.suranet.com/forms/frmservlet?config=FI"
+        },
+
+        {
+          "descripcion": "serSiaServProveedores",
+
+          "icono": "serSiaServProveedores",
+
+          "nombre": "serSiaServProveedores",
+
+          "url": "http://segdllo02.suranet.com/ServiciosAutosura/LogonSIAServlet?servicio=serSiaServProveedores"
+        },
+
+        {
+          "descripcion": "serSiaServRegistrado",
+
+          "icono": "serSiaServRegistrado",
+
+          "nombre": "serSiaServRegistrado",
+
+          "url": "http://segdllo02.suranet.com/ServiciosAutosura/LogonSIAServlet?servicio=serSiaServRegistrado"
+        }
+      ],
+
+      "nombre": "Generación del Conocimiento"
+    },
+
+    {
+      "aplicaciones": [
+        {
+          "descripcion": "Guidewire Policy Center",
+
+          "icono": "PolicyCenter",
+
+          "nombre": "Policy Center",
+
+          "url": "http://dllocoreseguros.suramericana.com.co/pc"
+        },
+
+        {
+          "descripcion": "Nuevo Core Seguros BillingCenter - Dllo WLS",
+
+          "icono": "BillingCenter",
+
+          "nombre": "Billing Center",
+
+          "url": "http://dllocoreseguros.suramericana.com:7004/bc"
+        },
+
+        {
+          "descripcion": "Holmes, aplicación de configuración de LOGs de aplicaciones",
+
+          "icono": "Holmes",
+
+          "nombre": "Holmes",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://lnfdllod01.suranet.com/holmes"
+        },
+
+        {
+          "descripcion": "Ingreso Aplicación Navigator",
+
+          "icono": "SrvIngresoP8",
+
+          "nombre": "SrvIngresoP8",
+
+          "subcategoria": "Archivo Digital",
+
+          "url": "http://p8appdll.suranet.com/P8LoginWeb/"
+        },
+
+        {
+          "descripcion": "administrador de afiliación en linea y gestión comercial",
+
+          "icono": "afilinea-admin",
+
+          "nombre": "Afiliación en Linea - Administrador",
+
+          "url": "http://localhost.suranet.com:9000/index.html#"
+        },
+
+        {
+          "descripcion": "Gestión ingresos interno",
+
+          "icono": "pruebaconcepto-gestioningresosarl",
+
+          "nombre": "Afiliación en Linea - Administrador",
+
+          "url": "http://localhost.suranet.com:7210"
+        },
+
+        {
+          "descripcion": "Gestión ingresos interno",
+
+          "icono": "gestioningresosarl",
+
+          "nombre": "Gestión Ingresos ARL",
+
+          "url": "http://segobl.dllosura.com/gestioningresos"
+        },
+
+        {
+          "descripcion": "borrar sp",
+
+          "icono": "DiagnosicoBackEndBorrar",
+
+          "nombre": "borrar sp",
+
+          "url": "http://modulodiagnosticosdllo.suramericana.com/modulodiagnosticos/"
+        },
+
+        {
+          "descripcion": "Gestión Ingresos ARL Local",
+
+          "icono": "gestioningresosarl-local",
+
+          "nombre": "Gestión Ingresos ARL Local",
+
+          "url": "http://localhost.suranet.com:9490/gestioningresos"
+        },
+
+        {
+          "descripcion": "Administracion Notificaciones",
+
+          "icono": "Notific",
+
+          "nombre": "Notificaciones",
+
+          "url": "https://appssegdllo01.suranet.com/Notificaciones/default.jsp?servicio=Notific/inicio.jsp"
+        },
+
+        {
+          "descripcion": "Modelo de controles técnicos",
+
+          "icono": "mct",
+
+          "nombre": "Modelo de controles técnicos",
+
+          "url": "http://local.suranet.com:7001/mct"
+        },
+
+        {
+          "descripcion": "SimonWeb",
+
+          "icono": "AdmSimonWeb",
+
+          "nombre": "SimonWeb",
+
+          "url": "https://appssegdllo02.suranet.com/simonweb"
+        },
+
+        {
+          "descripcion": "Aplicación SOAT",
+
+          "icono": "Soat",
+
+          "nombre": "SOAT",
+
+          "url": "http://segdllo02.suranet.com/soat"
+        },
+
+        {
+          "descripcion": "Sistema de apoyo de la solución seguro agrícula",
+
+          "icono": "SuraAgro",
+
+          "nombre": "SISTEMA INTEGRADO DE INFORMACIÓN Y GENERACIÓN DE AGRO",
+
+          "url": "http://segdllo01.suranet.com/AplicacionWebSuragro"
+        },
+
+        {
+          "descripcion": "Sistema para la generación de documentos que permite la impresión por impresora, email y otras.",
+
+          "icono": "ImpresionDocumentos",
+
+          "nombre": "Generación e impresión de documentos",
+
+          "url": "http://segdllo01.suranet.com/impresion"
+        },
+
+        {
+          "descripcion": "Sistema para gestionar el pago de Comisiones a los agentes de Eps Sura",
+
+          "icono": "Comisiones",
+
+          "nombre": "Liquidador de Comisiones",
+
+          "url": "http://local.suranet.com:7001/comisiones"
+        },
+
+        {
+          "descripcion": "Aplicacion para la gestion de pagos de ARL",
+
+          "icono": "ArpSuraGestionPagos",
+
+          "nombre": "Gestion Pagos ARL",
+
+          "url": "https://arlappsdllo.suranet.com/GestionPagosWEB"
+        },
+
+        {
+          "descripcion": "Sistema para la traza de auditoría de documentos y control de la productividad para gestión documental",
+
+          "icono": "AdministracionProcesos",
+
+          "nombre": "Gestión de la Información",
+
+          "subcategoria": "Archivo Digital",
+
+          "url": "http://segdllo01.suranet.com/AdministracionProcesos"
+        },
+
+        {
+          "descripcion": "Prestación de servicios CGR",
+
+          "icono": "Girop",
+
+          "nombre": "Girop",
+
+          "url": "http://arlappsdllo.suranet.com/PrestacionServiciosCGR"
+        },
+
+        {
+          "descripcion": "Gestión de las reservas técnicas de accidentes de trabajo y Enfermedad profesional de ARP|SURA.",
+
+          "icono": "ReservasTecnicasARL",
+
+          "nombre": "Reservas Técnicas ARL",
+
+          "url": "http://arlappsdllo.suranet.com/Reservas"
+        },
+
+        {
+          "descripcion": "Proyecto de financiación de pólizas.",
+
+          "icono": "Financiaciones",
+
+          "nombre": "Financiaciones",
+
+          "url": "https://appssegdllo01.suranet.com/Financiaciones/"
+        },
+
+        {
+          "descripcion": "administrador de afiliación en linea",
+
+          "icono": "AdministracionAfilinea",
+
+          "nombre": "Administrador Afilinea",
+
+          "url": "http://afilinea.dllosura.com"
+        },
+
+        {
+          "descripcion": "Sistema para soportar la operación de los centros servicio Autosura en el tema de revisiones y servicios",
+
+          "icono": "ServiciosAutosura",
+
+          "nombre": "Servicios Autosura",
+
+          "url": "http://local.suranet.com:7021/ServiciosAutosura"
+        },
+
+        {
+          "descripcion": "Sistema encargado de administrar las citas medicas de los pacientes de sura",
+
+          "icono": "AgendaWeb",
+
+          "nombre": "Agenda Web",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://localhost.suranet.com:7021/agenda"
+        },
+
+        {
+          "descripcion": "Aplicación coexistencia",
+
+          "icono": "Coexistencia",
+
+          "nombre": "Coexistencia",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://local.suranet.com:7021/coeadmin/"
+        },
+
+        {
+          "descripcion": "Automatiza el proceso de actualización y creación de listas maestras de referencia a nivel de suramericana, las cuales son usadas por las aplicaciones de los diferentes negocios, aplicando un modelo definido de gobierno sobre los datos.",
+
+          "icono": "gestion-listas-rest",
+
+          "nombre": "Listas Maestras de Referencia",
+
+          "subcategoria": "Módulos",
+
+          "url": "https://appssegdllo03.suranet.com/gestion-listas-rest"
+        },
+
+        {
+          "descripcion": "aplicación empresariales asesoría y venta",
+
+          "icono": "Empresariales",
+
+          "nombre": "Empresariales",
+
+          "url": "http://dllocoreseguros.suramericana.com.co/fnt-SolucionesEmpresariales/agt-SolucionesEmpresariales/groupcenter"
+        },
+
+        {
+          "descripcion": "gestionpagosprevencion",
+
+          "icono": "gestionpagosprevencion",
+
+          "nombre": "Pagos a terceros ARL",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://segobl.dllosura.com/gestionpagosprevencion"
+        },
+
+        {
+          "descripcion": "Comisiones Ejecutivos ARL Sura",
+
+          "icono": "CommissionsARL",
+
+          "nombre": "Commissions ARL",
+
+          "url": "https://gdis-dev.callidusondemand.com/SalesPortal/#!/"
+        },
+
+        {
+          "descripcion": "Administración Canal Directo",
+
+          "icono": "afilineaarlgestion",
+
+          "nombre": "Gestión Afilinea ARL",
+
+          "url": "http://local.suranet.com:3000/"
+        },
+
+        {
+          "descripcion": "Servicios varios usados para el proceso de reclamaciones de siniestros panamá.",
+
+          "icono": "ServiciosSiniestros",
+
+          "nombre": "Atención de reclamaciones Web",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://segdllo02.suranet.com:7001/ServiciosSiniestrosWS"
+        },
+
+        {
+          "descripcion": "Adulto mayor visual",
+
+          "icono": "AdultoMayorVisual",
+
+          "nombre": "Adulto Mayor Visual",
+
+          "url": "http://local.suranet.com:7021/AdultoMayor"
+        },
+
+        {
+          "descripcion": "Aplicativo donde se gestionan las tutelas de la compañia",
+
+          "icono": "TUTELAS",
+
+          "nombre": "Tutelas",
+
+          "subcategoria": "Módulos",
+
+          "url": "https://epsappsdllo.suranet.com/tutelas"
+        },
+
+        {
+          "descripcion": "Matrices legales Empleados",
+
+          "icono": "MatricesLegales",
+
+          "nombre": "matrices",
+
+          "url": "http://grcdllo.sura.com/matriceslegales"
+        },
+
+        {
+          "descripcion": "Conciliación cuentas medicas con prestadores",
+
+          "icono": "conciliacioncuentasmedicas",
+
+          "nombre": "Conciliación cuentas medicas con prestadores",
+
+          "url": "http://arldkrd01.suramericana.com.co:9170/conciliacioncmprestadoreseps/#"
+        },
+
+        {
+          "descripcion": "Rescates",
+
+          "icono": "adminFondo",
+
+          "nombre": "Administracion Rescates Fondo",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://juantogo.suranet.com:7003/rescatesFondo/"
+        },
+
+        {
+          "descripcion": "Estructura organizacional Empleados",
+
+          "icono": "EstructuraOrganizacional",
+
+          "nombre": "Estructura Organizacional",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://grcdllo.sura.com/estructuraorganizacional"
+        },
+
+        {
+          "descripcion": "Ipevr Empleados",
+
+          "icono": "Ipevr",
+
+          "nombre": "Ipevr",
+
+          "url": "http://grcdllo.sura.com/ipevr"
+        },
+
+        {
+          "descripcion": "Aplicación para consulta y gestión de estados de cuenta de empresas y/o independientes",
+
+          "icono": "estadocuentaarl",
+
+          "nombre": "Estado Cuenta ARL",
+
+          "url": "http://segobl.dllosura.com/estadocuenta"
+        },
+
+        {
+          "descripcion": "Aplicativo para administrar las configuración de P8",
+
+          "icono": "AdministracionP8",
+
+          "nombre": "Administración Configuraciones P8",
+
+          "subcategoria": "Archivo Digital",
+
+          "url": "http://p8appdll.suranet.com/AdministracionP8"
+        },
+
+        {
+          "descripcion": "Contratistas Empleados",
+
+          "icono": "Contratistas",
+
+          "nombre": "Contratistas",
+
+          "url": "http://grcdllo.sura.com/contratistas"
+        },
+
+        {
+          "descripcion": "Prueba",
+
+          "icono": "SGR",
+
+          "nombre": "Gestión de Riesgos",
+
+          "url": "http://localhost.suranet.com:7021/sar"
+        },
+
+        {
+          "descripcion": "Sistema para soportar la operación de los centros de servicio Autos Sura de revisiones y servicios.",
+
+          "icono": "ServiciosAutosuraLocal",
+
+          "nombre": "Servicios Autosura",
+
+          "url": "http://local.suranet.com:7021/ServiciosAutosura"
+        },
+
+        {
+          "descripcion": "Módulo para suscripción y expedición de la solución cumplimiento",
+
+          "icono": "CumplimientoWls",
+
+          "nombre": "Sistema de Cumplimiento",
+
+          "url": "https://appssegdllo01.suranet.com/cumplimientowls"
+        },
+
+        {
+          "descripcion": "Prestamos los servicios asistenciales y de emergencia que tangibilizan el seguro a nuestros clientes.",
+
+          "icono": "Asistencia",
+
+          "nombre": "Asistencia",
+
+          "url": "http://local.suranet.com:7021/asistencia/"
+        },
+
+        {
+          "descripcion": "gestionpagosprevencion_local",
+
+          "icono": "gestionpagosprevencion_local",
+
+          "nombre": "Reclamaciones",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://localhost.suranet.com:8080/gestionpagosprevencion"
+        },
+
+        {
+          "descripcion": "Servicios para la gesrtion de plan de trabajos de arl",
+
+          "icono": "GESPrevencion",
+
+          "nombre": "Gestión Prevención",
+
+          "subcategoria": "Módulos",
+
+          "url": "https://gestionprevenciondllo.dllosura.com"
+        },
+
+        {
+          "descripcion": "ArlComisiones",
+
+          "icono": "ArlComisiones",
+
+          "nombre": "ArlComisiones",
+
+          "url": "https://gdis-dev.callidusondemand.com/SalesPortal/#!/"
+        },
+
+        {
+          "descripcion": "ARLSuraGestionRiesgos",
+
+          "icono": "ARLSuraGestionRiesgos",
+
+          "nombre": "ARLSuraGestionRiesgos",
+
+          "url": "http://epsarpdllo01.suranet.com/GestionRiesgos/GestionRiesgos.html"
+        },
+
+        {
+          "descripcion": "ArpSuraGestionRecaudos",
+
+          "icono": "ArpSuraGestionRecaudos",
+
+          "nombre": "ArpSuraGestionRecaudos",
+
+          "url": "http://epsarpdllo01.suranet.com/GestionRecaudosWEB/GestionRecaudosWEB.html"
+        },
+
+        {
+          "descripcion": "ArpSuraPrestadores",
+
+          "icono": "ArpSuraPrestadores",
+
+          "nombre": "ArpSuraPrestadores",
+
+          "url": "https://arlappslab.suramericana.com/servicios_linea/indexSeguridad.jsp?opcion=prestadores"
+        },
+
+        {
+          "descripcion": "coex-admin",
+
+          "icono": "coex-admin",
+
+          "nombre": "coex-admin",
+
+          "url": "http://segdllo01.suranet.com/coeadmin/frames.html"
+        },
+
+        {
+          "descripcion": "CoreCanalesMasivosServices",
+
+          "icono": "CoreCanalesMasivosServices",
+
+          "nombre": "CoreCanalesMasivosServices",
+
+          "url": "http://segdllo02.suranet.com/CoreCanalesMasivosServicesWS/services"
+        },
+
+        {
+          "descripcion": "Sistema seguro que permite la expedición de pólizas con mayor efectividad a través de flujos de trabajo.",
+
+          "icono": "DlloSeee",
+
+          "nombre": "Evaluación, Emisión y Entrega",
+
+          "url": "http://dllseee.suranet.com/workflowweb"
+        },
+
+        {
+          "descripcion": "EsbCotizacionesServices",
+
+          "icono": "EsbCotizacionesServices",
+
+          "nombre": "EsbCotizacionesServices",
+
+          "url": "http://soadllo.suramericana.com.co/ServiciosCotizadorMobileWeb/http"
+        },
+
+        {
+          "descripcion": "EsbServiciosExpansion",
+
+          "icono": "EsbServiciosExpansion",
+
+          "nombre": "EsbServiciosExpansion",
+
+          "url": "http://soadllo.suramericana.com.co/ExpansionSuraWeb"
+        },
+
+        {
+          "descripcion": "Módulo para suscripción y expedición de la solución cumplimiento para las fianzas panamá",
+
+          "icono": "FianzasPanamawls",
+
+          "nombre": "Fianzas Panamá",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://local.suranet.com:7001/fianzaspanama/"
+        },
+
+        {
+          "descripcion": "Mevi2",
+
+          "icono": "Mevi2",
+
+          "nombre": "Mevi2",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://segdllo01.suranet.com/mevi2"
+        },
+
+        {
+          "descripcion": "sar",
+
+          "icono": "sar",
+
+          "nombre": "sar",
+
+          "url": "http://segdllo01.suranet.com/sar"
+        },
+
+        {
+          "descripcion": "ServicioEscritorioDeProcesos",
+
+          "icono": "ServicioEscritorioDeProcesos",
+
+          "nombre": "ServicioEscritorioDeProcesos",
+
+          "url": "https://bamlab.suramericana.com.co/mum/resources/bootstrap/login.jsp"
+        },
+
+        {
+          "descripcion": "soatpiloto",
+
+          "icono": "soatpiloto",
+
+          "nombre": "soatpiloto",
+
+          "url": "http://segdllo02.suranet.com/soatpiloto/logonsoatservlet?servicio=soat"
+        },
+
+        {
+          "descripcion": "SrvGestionAfidiIntranet",
+
+          "icono": "SrvGestionAfidiIntranet",
+
+          "nombre": "SrvGestionAfidiIntranet",
+
+          "url": "http://epsarpdllo01.suranet.com/GestionAfidi"
+        },
+
+        {
+          "descripcion": "SrvLogistica",
+
+          "icono": "SrvLogistica",
+
+          "nombre": "SrvLogistica",
+
+          "url": "http://epsarpdllo01.suranet.com/PrestacionServiciosCGR/CGR.html"
+        },
+
+        {
+          "descripcion": "SrvMedicionTiemposInicio",
+
+          "icono": "SrvMedicionTiemposInicio",
+
+          "nombre": "SrvMedicionTiemposInicio",
+
+          "url": "http://epsarpdllo01.suranet.com/mediciontiempos/ServicioVisor"
+        },
+
+        {
+          "descripcion": "SrvPlanEmergencias",
+
+          "icono": "SrvPlanEmergencias",
+
+          "nombre": "SrvPlanEmergencias",
+
+          "url": "http://epsarpdllo01.suramericana.com/plemportales/administrador.jsp"
+        },
+
+        {
+          "descripcion": "SrvReservas",
+
+          "icono": "SrvReservas",
+
+          "nombre": "SrvReservas",
+
+          "url": "https://arlappsdllo.suranet.com/Reservas/servlet/CargadorRecursos"
+        },
+
+        {
+          "descripcion": "sse",
+
+          "icono": "sse",
+
+          "nombre": "sse",
+
+          "url": "http://mdedllo1.suranet.com:8002/SuscripcionEmpresarial"
+        },
+
+        {
+          "descripcion": "stonline",
+
+          "icono": "stonline",
+
+          "nombre": "stonline",
+
+          "url": "http://segdllo01.suranet.com/stonline/servlet/suramericana.stonline.acciones.ControllerSTOnline"
+        },
+
+        {
+          "descripcion": "SuramericanaSegurosServiciosAutos",
+
+          "icono": "SuramericanaSegurosServiciosAutos",
+
+          "nombre": "SuramericanaSegurosServiciosAutos",
+
+          "url": "http://segdllo01.suranet.com/SuramericanaSegurosServiciosAutosWS/services"
+        },
+
+        {
+          "descripcion": "SuramericanaSegurosServiciosResarcimiento",
+
+          "icono": "SuramericanaSegurosServiciosResarcimiento",
+
+          "nombre": "SuramericanaSegurosServiciosResarcimiento",
+
+          "url": "http://segdllo01.suranet.com/SuramericanaSegurosServiciosAutosWS/services"
+        },
+
+        {
+          "descripcion": "formulario para posibles covid",
+
+          "icono": "FormularioCOVID",
+
+          "nombre": "FormularioCovid",
+
+          "subcategoria": "Archivo Digital",
+
+          "url": "https://comunicaciones.segurossura.com.co/CCM/Covid/Index.html"
+        },
+
+        {
+          "descripcion": "Servicio ADR seus4",
+
+          "icono": "ADR",
+
+          "nombre": "ADR",
+
+          "url": "http://localhost.suranet.com:7021/ADR"
+        },
+
+        {
+          "descripcion": "Modulo Mobile de Clicksoftware desde la WEB",
+
+          "icono": "ClickMobileWEB",
+
+          "nombre": "Click Mobile WEB",
+
+          "url": "https://fse-na-sb-login.cloud.clicksoftware.com/tmindex.html?return_path=https://fse-na-sb.cloud.clicksoftware.com/mobile"
+        },
+
+        {
+          "descripcion": "Modulo WEB Aplicación Fuerzas campo CGR Clicksoftware",
+
+          "icono": "Clicksoftware ARL",
+
+          "nombre": "Clicksoftware ARL",
+
+          "url": "https://fse-na-sb-login.cloud.clicksoftware.com/tmindex.html?return_path=https://fse-na-sb.cloud.clicksoftware.com/studio"
+        },
+
+        {
+          "descripcion": "Aplicación que presta la función para agendar citas para Movilidad",
+
+          "icono": "AgendaWebMovilidad",
+
+          "nombre": "AgendaWebMovilidad",
+
+          "url": "http://appssegdllo01.suranet.com/Agenda"
+        },
+
+        {
+          "descripcion": "Sistema para la gestión del score financiero de las empresas clientes de  Sura Empresas",
+
+          "icono": "ScoreFinancieroLocal",
+
+          "nombre": "ScoreFinanciero",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://local.suranet.com"
+        },
+
+        {
+          "descripcion": "Cargas y descargas de documentos",
+
+          "icono": "cargasMasivasP8",
+
+          "nombre": "Carga y Descargas P8",
+
+          "subcategoria": "Archivo Digital",
+
+          "url": "http://p8appdll.suranet.com/AdministracionP8/homeMonitores/ingreso.jsp"
+        },
+
+        {
+          "descripcion": "SuraIntegracionFasecolda: Aplicación para la consulta del código fasecolda",
+
+          "icono": "integraFasecolda",
+
+          "nombre": "SuraIntegracionFasecolda",
+
+          "url": "http://localhost.sura.com:7021/IntegracionFasecolda/"
+        },
+
+        {
+          "descripcion": "Aplicación star panama",
+
+          "icono": "starLocal",
+
+          "nombre": "Star panamá local",
+
+          "subcategoria": "Módulos",
+
+          "url": "https://appssegdllo01.suranet.com/star/"
+        },
+
+        {
+          "descripcion": "Módulo Administración Asesor Empresario",
+
+          "icono": "pase",
+
+          "nombre": "Administración Asesor Empresario",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://segdllo01.suranet.com/pase"
+        },
+
+        {
+          "descripcion": "Aplicación salvamentos Panamá",
+
+          "icono": "salvamentosPanama",
+
+          "nombre": "Salvamentos Panamá local",
+
+          "url": "http://local.suranet.com:7001/salvamentos"
+        },
+
+        {
+          "descripcion": "Aplicativo Memorias SUra",
+
+          "icono": "MemoriasSura",
+
+          "nombre": "MemoriasSura",
+
+          "subcategoria": "Archivo Digital",
+
+          "url": "http://p8appdll.suranet.com/MemoriasSura"
+        },
+
+        {
+          "descripcion": "Stonline migración",
+
+          "icono": "SrvStonlineVisual",
+
+          "nombre": "ST ONLINE SEUS4",
+
+          "url": "https://stonline.dllosura.com/stonline/"
+        },
+
+        {
+          "descripcion": "Evaluacion-medica-plataforma",
+
+          "icono": "evaluacion-medica-plataforma",
+
+          "nombre": "Evaluacion Medica Nueva Plataforma",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://segdllo01.suranet.com/evaluacionMedica/app/index.html#!"
+        },
+
+        {
+          "descripcion": "Aplicativo para administración de las configuraciones",
+
+          "icono": "AdministracionDocumental",
+
+          "nombre": "Administración Documental",
+
+          "subcategoria": "Archivo Digital",
+
+          "url": "http://juantogo.suranet.com:7001/WebMapaSeries/"
+        },
+
+        {
+          "descripcion": "Aplicativo para ArquitecturaDocumental",
+
+          "icono": "arq_dctal_sura",
+
+          "nombre": "Arquitectura Documental",
+
+          "subcategoria": "Archivo Digital",
+
+          "url": "https://appssegdllo02.suranet.com/WebMapaSeries"
+        },
+
+        {
+          "descripcion": "Automatiza el proceso de actualización y creación de listas maestras de referencia a nivel de suramericana, las cuales son usadas por las aplicaciones de los diferentes negocios, aplicando un modelo definido de gobierno sobre",
+
+          "icono": "gestion-listas-rest-migracion",
+
+          "nombre": "Listas Maestras de Referencia",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://localhost.suramericana.com.co:7021/gestion-listas-rest"
+        },
+
+        {
+          "descripcion": "Aplicación para evaluación médica",
+
+          "icono": "Mevi",
+
+          "nombre": "Evaluación Médica",
+
+          "url": "http://segdllo01.suranet.com/mevi2/"
+        },
+
+        {
+          "descripcion": "Configuracion de suragro",
+
+          "icono": "Suragro",
+
+          "nombre": "SISTEMA INTEGRADO DE INFORMACIÓN Y GENERACIÓN DE AGRO",
+
+          "url": "http://local.suranet.com:7001/AplicacionWebSuragro"
+        },
+
+        {
+          "descripcion": "Configuracion de suragro",
+
+          "icono": "Suragro_Local",
+
+          "nombre": "SISTEMA INTEGRADO DE INFORMACIÓN Y GENERACIÓN DE AGRO",
+
+          "url": "http://local.suranet.com:7001/AplicacionWebSuragro"
+        },
+
+        {
+          "descripcion": "StOnline Local",
+
+          "icono": "SrvStonlineVisualTest",
+
+          "nombre": "STOnline Migracion SEUS4",
+
+          "url": "http://local.suranet.com:7021/stonline/"
+        },
+
+        {
+          "descripcion": "Solicitudes Prestación: Aplicación para el manejo y la gestión de las solicitudes de servicios para los 3 frentes de prestación de movilidad (Asistencia-Reclamaciones-Gestion De Riesgos de Movilidad)",
+
+          "icono": "apiprestacion",
+
+          "nombre": "Solicitudes Prestacion",
+
+          "url": "https://solicitudesfrontdllo.suramericana.com"
+        },
+
+        {
+          "descripcion": "Gestión Documentos de Afiliación ARL",
+
+          "icono": "gestionafiliacionesarl-local",
+
+          "nombre": "Gestión Documentos de Afiliación ARL",
+
+          "url": "http://local.arlsura.com:3000/gestionafiliaciones"
+        },
+
+        {
+          "descripcion": "Gestión Documentos de Afiliación ARL",
+
+          "icono": "gestionafiliacionesarl-dllo",
+
+          "nombre": "Gestión Documentos de Afiliación ARL",
+
+          "url": "https://afiliacionesdllo.arlsura.com/gestionafiliaciones"
+        },
+
+        {
+          "descripcion": "aplicativo hogar del core de seguros",
+
+          "icono": "Hogar_core",
+
+          "nombre": "Hogar_core",
+
+          "url": "http://dllocoreseguros.suramericana.com.co/agt-SolucionesEmpresariales/hogar"
+        },
+
+        {
+          "descripcion": "Administrador de parametros",
+
+          "icono": "parametrosapp",
+
+          "nombre": "Administrador de parametros",
+
+          "subcategoria": "Módulos",
+
+          "url": "https://parametrosapp.dllosura.com"
+        },
+
+        {
+          "descripcion": "Service Provider Asesores EPS dllo1",
+
+          "icono": "asesoresEPS",
+
+          "nombre": "Gestion Comercial 1234",
+
+          "url": "http://localhost.suranet.com:7021/Asesores/"
+        },
+
+        {
+          "descripcion": "Aprovisionamiento",
+
+          "icono": "APUS",
+
+          "nombre": "Aprovisionamiento",
+
+          "url": "https://appssegdllo01.suranet.com/aprovisionamiento/InicioServlet"
+        },
+
+        {
+          "descripcion": "Aplicación que permite generar documentos de los diferentes procesos de negocios, utilizando CCM",
+
+          "icono": "ImpresionDocumentosCCM",
+
+          "nombre": "Impresión de Documentos CCM",
+
+          "url": "http://local.suranet.com:4200/"
+        },
+
+        {
+          "descripcion": "Servicios para gestion de terceros",
+
+          "icono": "GestionTerceros",
+
+          "nombre": "Gestion Terceros",
+
+          "url": "https://gestionterceros.dllosura.com/"
+        },
+
+        {
+          "descripcion": "Service provider de Ausentismo DLLO",
+
+          "icono": "Ausentismos",
+
+          "nombre": "Ausentismos",
+
+          "url": "https://gestionnomina.dllosura.com/ausentismos"
+        },
+
+        {
+          "descripcion": "Administrador de afiliaciones a la ARL",
+
+          "icono": "gestorafiliaciones",
+
+          "nombre": "Gestor de Afiliaciones ARL",
+
+          "url": "https://gestorafiliacionesarldllo.dllosura.com/"
+        },
+
+        {
+          "descripcion": "aplicación que permite la gestión de solicitudes de vida y salud, que no se expiden automáticamente ",
+
+          "icono": "GestorTareas",
+
+          "nombre": "Gestor de Tareas",
+
+          "url": "https://gestortareas.dllosura.com/"
+        },
+
+        {
+          "descripcion": "Gestión y entrega del servicios. Cadena de Abastecimiento.",
+
+          "icono": "SalesforceFSM_ARL",
+
+          "nombre": "Field Services",
+
+          "url": "https://computing-page-3924--desarrollo.sandbox.my.salesforce.com"
+        },
+
+        {
+          "descripcion": "Pruebas FSM ARL",
+
+          "icono": "TestSalesforceFSM",
+
+          "nombre": "Pruebas FSM ARL",
+
+          "url": "https://resilient-badger-ocbk8l-dev-ed.trailblaze.my.salesforce.com"
+        },
+
+        {
+          "descripcion": "Aplicación de lego seus local",
+
+          "icono": "LegoSeusLocal",
+
+          "nombre": "Lego Seus Local",
+
+          "url": "http://local.dllosura.com:4200"
+        }
+      ],
+
+      "nombre": "Herramientas de Trabajo"
+    },
+
+    {
+      "aplicaciones": [
+        {
+          "descripcion": "Aplicación que permite la visualización de los certificado de los usuarios",
+
+          "icono": "SrvCertificadosDober",
+
+          "nombre": "siif",
+
+          "url": "http://srcmd01.suramericana.com.co/SrvCertificadosDober"
+        },
+
+        {
+          "descripcion": "Aplicación que permite la gestión de la facturación de los asesores de la compañia",
+
+          "icono": "FacturacionAsesores",
+
+          "nombre": "Facturación Comisiones y Honorarios",
+
+          "url": "http://segdllo01.suranet.com/FacturacionAsesores"
+        },
+
+        {
+          "descripcion": "Gestión Integración Success Factors",
+
+          "icono": "gestion-integracion-sf-web",
+
+          "nombre": "Gestión Integración Success Factors",
+
+          "url": "http://localhost.suranet.com:7021/gestionIntegradorSF"
+        },
+
+        {
+          "descripcion": "Aplicación para los módulos de gestión de talento humano",
+
+          "icono": "talento-humano-app",
+
+          "nombre": "talento humano app",
+
+          "url": "https://appssegdllo01.suranet.com/talento-humano-app"
+        },
+
+        {
+          "descripcion": "Aplicativo que facilita la gestión de las operaciones de talento humano",
+
+          "icono": "WEB_integracion_SF",
+
+          "nombre": "Asistente Talento Humano",
+
+          "url": "https://appssegdllo01.suranet.com/IntegracionSFGest/"
+        },
+
+        {
+          "descripcion": "Mi cuenta sura",
+
+          "icono": "mi-cuenta-sura",
+
+          "nombre": "Mi Cuenta SURA",
+
+          "url": "https://micuentadllo.suranet.com"
+        },
+
+        {
+          "descripcion": "Aplicación para gestión de claves y usuarios de Seguros Voluntarios y Obligatorios",
+
+          "icono": "AdministradorPortales",
+
+          "nombre": "Administrador Portales",
+
+          "url": "http://adminportalesdllo.suramericana.com"
+        },
+
+        {
+          "descripcion": "CertiCREE",
+
+          "icono": "CertiCREE",
+
+          "nombre": "CertiCREE",
+
+          "subcategoria": "Certificados",
+
+          "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=2501"
+        },
+
+        {
+          "descripcion": "CertiEduc",
+
+          "icono": "CertiEduc",
+
+          "nombre": "CertiEduc",
+
+          "subcategoria": "Certificados",
+
+          "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=2401"
+        },
+
+        {
+          "descripcion": "CertiPenSura",
+
+          "icono": "CertiPenSura",
+
+          "nombre": "CertiPenSura",
+
+          "subcategoria": "Certificados",
+
+          "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=351"
+        },
+
+        {
+          "descripcion": "CertiRetFte",
+
+          "icono": "CertiRetFte",
+
+          "nombre": "CertiRetFte",
+
+          "subcategoria": "Certificados",
+
+          "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=350"
+        },
+
+        {
+          "descripcion": "CertiRetIva",
+
+          "icono": "CertiRetIva",
+
+          "nombre": "CertiRetIva",
+
+          "subcategoria": "Certificados",
+
+          "url": "http://mdeapsfrlx01.suranet.com:9999/pls/DLLONDS/pkg_suranet.pro_ppal?v_cod=355"
+        },
+
+        {
+          "descripcion": "iSinco",
+
+          "icono": "iSinco",
+
+          "nombre": "iSinco",
+
+          "url": "http://mdedllo1.suranet.com:8002/isinco/default.aspx"
+        },
+
+        {
+          "descripcion": "Kiosko",
+
+          "icono": "Kiosko",
+
+          "nombre": "Kiosko",
+
+          "url": "http://segdllo01.suranet.com/kioskoj/musuar00/pagInicioSura.jsp"
+        },
+
+        {
+          "descripcion": "srvImpuestosDian",
+
+          "icono": "srvImpuestosDian",
+
+          "nombre": "srvImpuestosDian",
+
+          "url": "http://mdedllo1.suranet.com/SrvCertificadosDober/InicioSIF.aspx"
+        },
+
+        {
+          "descripcion": "Aplicativo que facilita la gestión de las operaciones de talento humano",
+
+          "icono": "WEB_integracion_SF_local",
+
+          "nombre": "Asistente Talento Humano",
+
+          "url": "http://localhost.suranet.com:7021/IntegracionSFGest"
+        },
+
+        {
+          "descripcion": "Correspondencia",
+
+          "icono": "correspondencia",
+
+          "nombre": "Correspondencia",
+
+          "url": "http://segdllo01.suranet.com/Correspondencia"
+        }
+      ],
+
+      "nombre": "Servicios para Empleados"
+    },
+
+    {
+      "aplicaciones": [
+        {
+          "descripcion": "Consola Administrativa Sistema Seguridad",
+
+          "icono": "seus-consola",
+
+          "nombre": "Consola Seus4",
+
+          "url": "https://seusconsola.dllosura.com"
+        },
+
+        {
+          "descripcion": "Control de acceso a las bases de datos (http://segmdewlsd03.suramericana.com.co/AccessControlDB-war) (http://localhost.suranet.com:7003/AccessControlDB-war)",
+
+          "icono": "ControlAccesoBd",
+
+          "nombre": "ControlAccesoBd",
+
+          "url": "https://appssegdllo03.suranet.com/AccessControlDB-war/"
+        },
+
+        {
+          "descripcion": "Directorio de Servicios",
+
+          "icono": "dise",
+
+          "nombre": "Directorio de Servicios",
+
+          "url": "https://lnfdllod01.suranet.com/dise"
+        },
+
+        {
+          "descripcion": "Consola de Surabroker",
+
+          "icono": "SurabrokerConsole",
+
+          "nombre": "Surabroker Console",
+
+          "url": "https://appssegdllo02.suranet.com/SuraBrokerConsole/"
+        },
+
+        {
+          "descripcion": "Compara la línea base entregada por los proveedores contra la línea base local",
+
+          "icono": "ControlLineaBase",
+
+          "nombre": "Control Linea Base",
+
+          "url": "http://dnmdewbd01.suramericana.com.co/ControlLineaBase"
+        },
+
+        {
+          "descripcion": "Permite la gestión de drivers y su cotización en proyectos de infraestructura tecnológica (carrito de compras)",
+
+          "icono": "GestionProyectosInfraestructuraSura",
+
+          "nombre": "Gestion Proyectos Infraestructura Sura",
+
+          "url": "http://dnmdewbd01.suramericana.com.co/GestionProyectosInfraSura"
+        },
+
+        {
+          "descripcion": "Compara la línea base entregada por los proveedores contra la línea base local",
+
+          "icono": "ControlLineaBaseDllo",
+
+          "nombre": "Control Linea Base Dllo",
+
+          "url": "http://local.suranet.com:50578"
+        },
+
+        {
+          "descripcion": "Aplicativo local para la gestión de reservas de avisados ARL",
+
+          "icono": "ArpSuraGestionReservas_Local",
+
+          "nombre": "Gestion Reservas",
+
+          "url": "http://localhost.dllosura.com:7021/GestionReservasWEB"
+        },
+
+        {
+          "descripcion": "Aplicacion complemento BEYOND HEALTH",
+
+          "icono": "SuraPOS",
+
+          "nombre": "SuraPos",
+
+          "url": "http://segobl.dllosura.com/surapos"
+        },
+
+        {
+          "descripcion": "Permite la gestión de drivers y su cotización en proyectos de infraestructura tecnológica (carrito de compras)",
+
+          "icono": "GestionProyectosInfraestructuraSuraDllo",
+
+          "nombre": "Gestion Proyectos Infraestructura Sura",
+
+          "url": "http://local.suranet.com:45455"
+        },
+
+        {
+          "descripcion": "Aplicacion complemento BEYOND HEALTH",
+
+          "icono": "SuraPosLocal",
+
+          "nombre": "SuraPosLocal",
+
+          "url": "http://local.suranet.com:4200"
+        },
+
+        {
+          "descripcion": "Control de acceso a las bases de datos (http://segmdewlsd03.suramericana.com.co/AccessControlDB-war) (http://localhost.suranet.com:7003/AccessControlDB-war)",
+
+          "icono": "ControlAccesoBd_Migracion",
+
+          "nombre": "ControlAccesoBd",
+
+          "url": "https://appssegdllo03.suranet.com/AccessControlDB-war"
+        },
+
+        {
+          "descripcion": "Nombre de oci que redirecciona a local",
+
+          "icono": "SrvStonlineOCI",
+
+          "nombre": "STOnline",
+
+          "url": "https://stonline.dllosura.com/stonline/"
+        },
+
+        {
+          "descripcion": "COMPROBACION DE DERECHOS PBS - SERVICIOS WEB REST",
+
+          "icono": "SPCOMPRDERECHOS",
+
+          "nombre": "COMPROBACION DE DERECHOS PBS",
+
+          "url": "http://segobl.dllosura.com/servconsultas"
+        },
+
+        {
+          "descripcion": "ACTUALIZACION AFILIADOS PBS - SERVICIOS WEB REST",
+
+          "icono": "SPACTUALIZAAFILIADO",
+
+          "nombre": "ACTUALIZACION AFILIADOS PBS",
+
+          "url": "http://segobl.dllosura.com/servactualiza"
+        },
+
+        {
+          "descripcion": "SINCRONIZACION AFILIADOS PBS - SERVICIOS WEB REST",
+
+          "icono": "SPSINCRONIAFILIADO",
+
+          "nombre": "SINCRONIZACION AFILIADOS PBS",
+
+          "url": "http://segobl.dllosura.com/eventsincroni"
+        },
+
+        {
+          "descripcion": "Motor de Jaspert Report JRIO",
+
+          "icono": "jasperreport-io-base-arl-ms-local",
+
+          "nombre": "JRIO",
+
+          "url": "http://local.arlsura.com:28080/jrio"
+        },
+
+        {
+          "descripcion": "SP PARA LA APLICACIÓN DE BANDEJAS MEDICINA LABORAL",
+
+          "icono": "BANDEJAMEDLABORAL",
+
+          "nombre": "Bandeja medicina laboral",
+
+          "url": "https://bandejamedlaboral.dllosura.com/"
+        },
+
+        {
+          "descripcion": "Gestion de Legos Web",
+
+          "icono": "rocket",
+
+          "nombre": "Rocket",
+
+          "url": "https://rocket.dllosura.com"
+        },
+
+        {
+          "descripcion": "LOCAL gestión reservas",
+
+          "icono": "ArpSuraGestionReservas_LOCAL",
+
+          "nombre": "LOCAL gestión reservas",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://localhost.suranet.com:7021/GestionReservasWEB"
+        },
+
+        {
+          "descripcion": "LOCA para aplicación de BANDEJA",
+
+          "icono": "BANDEJAMEDLABORAL_LOCAL",
+
+          "nombre": "LOCAL BANDEJA",
+
+          "url": "http://localhost.suramericana.com:4200"
+        }
+      ],
+
+      "nombre": "Tecnológicos"
+    },
+
+    {
+      "aplicaciones": [
+        {
+          "descripcion": "ClaimCenter Dllo",
+
+          "icono": "ClaimCenter",
+
+          "nombre": "Claim Center",
+
+          "url": "http://dllocoreseguros.suramericana.com:7005/cc"
+        },
+
+        {
+          "descripcion": "Gestión de pólizas vendidas por medio del Canal Líderes Venta Directa.",
+
+          "icono": "VentaDirectaApp",
+
+          "nombre": "Venta Directa Sura App - Seus4",
+
+          "url": "https://seusdllo.suranet.com/#/"
+        },
+
+        {
+          "descripcion": "Salvamentos Partes",
+
+          "icono": "SalvamentosPartesClaims",
+
+          "nombre": "Salvamentos Partes Claims",
+
+          "url": "http://local.suranet.com:7021/salvamentosPartes"
+        },
+
+        {
+          "descripcion": "Watson",
+
+          "icono": "ConversationAnalytics",
+
+          "nombre": "Watson Dashboard",
+
+          "subcategoria": "Consultas",
+
+          "url": "http://personasdllo.arlsura.com/ConversationAnalytics"
+        },
+
+        {
+          "descripcion": "Sistemas que contiene todos los servicios web y rest del area de asuntos legales para los consumos a la aplicación casetracking",
+
+          "icono": "AsuntosLegalesAPP",
+
+          "nombre": "AsuntosLegales",
+
+          "subcategoria": "Módulos",
+
+          "url": "http://local.suranet.com:7003/AsuntosLegalesAPPWEB"
+        },
+
+        {
+          "descripcion": "Aplicación front y back de integracion de casetracking con aplicaciones sura",
+
+          "icono": "AsuLegal",
+
+          "nombre": "Integración Asuntos Legales",
+
+          "subcategoria": "Consultas",
+
+          "url": "http://asulegal.suranet.com:9890/asulegal"
+        },
+
+        {
+          "descripcion": "Se utiliza para legalizar la contabilidad del reaseguro, toman la info de SAP y se la envian a los reaseguradores, tambien se definen los pagos de los reaseguradores; se paga la comision a los reaseguradores y tambien ellos pagan a Sura(La aplicacoón se conecta con SAP) y permite generar informes Sura y los reaseguradores del estado de la cuenta por cobrar y por pagar",
+
+          "icono": "crw",
+
+          "nombre": "Cuentas de Reaseguros",
+
+          "url": "http://segdllo01.suranet.com/CuentasReaseguros"
+        },
+
+        {
+          "descripcion": "Sistema administrativo de Cartera",
+
+          "icono": "ADMSAC",
+
+          "nombre": "SAC 2",
+
+          "subcategoria": "Consultas",
+
+          "url": "http://localhost.suranet.com:3333/sac/"
+        },
+
+        {
+          "descripcion": "Salvamentos Partes",
+
+          "icono": "SalvamentosPartes",
+
+          "nombre": "Salvamentos Partes",
+
+          "url": "http://local.suranet.com:7021/salvamentosPartes"
+        },
+
+        {
+          "descripcion": "Sistema para la atención de reclamaciones de Suramericana.",
+
+          "icono": "ATRSura",
+
+          "nombre": "ATR Sura",
+
+          "subcategoria": "Consultas",
+
+          "url": "http://appssegdllo02.suranet.com/ATRSura"
+        },
+
+        {
+          "descripcion": "Sistema para la tarifación de presupuestos en la reparación de vehículos en Colombia",
+
+          "icono": "star2",
+
+          "nombre": "Estandarización de Tarifas",
+
+          "subcategoria": "HerramientasCAS",
+
+          "url": "http://local.suranet.com:7021/star2"
+        },
+
+        {
+          "descripcion": "ConGE",
+
+          "icono": "ConGE",
+
+          "nombre": "ConGE",
+
+          "url": "http://mdedllo1.suranet.com:8002/consultaGEL/consultaGE.aspx"
+        },
+
+        {
+          "descripcion": "consultaPROM",
+
+          "icono": "consultaPROM",
+
+          "nombre": "consultaPROM",
+
+          "url": "http://mdedllo1.suranet.com:8002/ConsultaPROM/consultaPromoto.aspx"
+        },
+
+        {
+          "descripcion": "GestionMasivosEOEAR",
+
+          "icono": "GestionMasivosEOEAR",
+
+          "nombre": "GestionMasivosEOEAR",
+
+          "url": "http://segdllo01.suranet.com/GestionMasivosEOWS/services"
+        },
+
+        {
+          "descripcion": "Osiw",
+
+          "icono": "Osiw",
+
+          "nombre": "Osiw",
+
+          "url": "http://segdllo01.suranet.com/osiris/servlet/suramericana.rentasv.generico.LogonXML?servicio=Osiw"
+        },
+
+        {
+          "descripcion": "salvamentos",
+
+          "icono": "salvamentos",
+
+          "nombre": "salvamentos",
+
+          "url": "http://local.suranet.com:7021/salvamentos/servlet/com.suramericana.salvamentos.generico.Logon"
+        },
+
+        {
+          "descripcion": "SeguroPrevisionalWS",
+
+          "icono": "SeguroPrevisionalWS",
+
+          "nombre": "SeguroPrevisionalWS",
+
+          "url": "http://maquinalocal.suranet.com:7021/PlataformaRentas/services/soap"
+        },
+
+        {
+          "descripcion": "Sinco",
+
+          "icono": "Sinco",
+
+          "nombre": "Sinco",
+
+          "url": "http://sinco.suranet.com/microstrategy7/?"
+        },
+
+        {
+          "descripcion": "SrvGestionConsignaciones",
+
+          "icono": "SrvGestionConsignaciones",
+
+          "nombre": "SrvGestionConsignaciones",
+
+          "url": "http://devsapweb.suramericana.com.co/recaudosEmpresarialesWeb/Integracion?servicio=SrvGestionConsignaciones&fuente=SURANET"
+        },
+
+        {
+          "descripcion": "star",
+
+          "icono": "star",
+
+          "nombre": "star",
+
+          "url": "http://local.suranet.com:7001/star"
+        },
+
+        {
+          "descripcion": "wsOsirisSimulMod",
+
+          "icono": "wsOsirisSimulMod",
+
+          "nombre": "wsOsirisSimulMod",
+
+          "url": "http://segdllo01.suranet.com/osiris/pubs/simulador"
+        },
+
+        {
+          "descripcion": "Aplicación para realizar traspasos de vinculaciones de los clientes.",
+
+          "icono": "tdc",
+
+          "nombre": "Traspasos de Clientes",
+
+          "url": "http://localhost.suramericana.com.co:7001/tdc"
+        },
+
+        {
+          "descripcion": "Prueba para librería reactive java",
+
+          "icono": "PruebaJavaReactivo",
+
+          "nombre": "PruebaJava",
+
+          "subcategoria": "Consultas",
+
+          "url": "http://localhost.suranet.com:8080/"
+        },
+
+        {
+          "descripcion": "Servicio HADA seus4",
+
+          "icono": "HADA",
+
+          "nombre": "HADA",
+
+          "url": "http://localhost.suranet.com:8080"
+        },
+
+        {
+          "descripcion": "Portal CSIA",
+
+          "icono": "adminbots",
+
+          "nombre": "Portal CSIA",
+
+          "subcategoria": "Módulos",
+
+          "url": "https://adminbots.dllosura.com"
+        }
+      ],
+
+      "nombre": "Información para la Gestión"
+    }
+  ]
 }
